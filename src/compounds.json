@@ -1,6 +1,20 @@
-[{"Molecule":"Ketone"},
-{"Molecule":"Alkene"},
-{"Molecule":"Alkyne"},
-{"Molecule":"Aldol"},
-{"Molecule":"Hydroxide"},
-{"Molecule":"Halogen"}]
+[{"Molecule":"Acetal"},
+{"Molecule":"Addition of Halogen"},
+{"Molecule":"Addition of Benzene Ring"},
+{"Molecule":"Alcohols"},
+{"Molecule":"Aldehydes"},
+{"Molecule":"Alkanes"}, 
+{"Molecule":"Alkenes"}, 
+{"Molecule":"Alkynes"}, 
+{"Molecule":"Amidation"}, 
+{"Molecule":"C-C Bonds"}, 
+{"Molecule":"Carboxylic Acids"}, 
+{"Molecule":"Deoxygenation"}, 
+{"Molecule":"Epoxides"}, 
+{"Molecule":"Esters"}, 
+{"Molecule":"Ethers"}, 
+{"Molecule":"Imines"}, 
+{"Molecule":"Ketones"}, 
+{"Molecule":"Rings"}
+
+]

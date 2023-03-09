@@ -16,14 +16,16 @@ function HomePage() {
 
     return (
         <div className="App">
-            <h1> Organic Chemistry Retrosynthesis </h1>
+            <h1> Organic Chemistry Synthesizer </h1>
             <div>
                 <input type="text" placeholder="Search..."
                     onChange={(event) => { // Code for search filter
                         setSearchTerm(event.target.value);
                     }}
                 />
-                <button style={{ marginLeft: 6 }} onClick={() => { setGoToReactions(true) }}>search</button>
+                <button style={{ marginLeft: 6 }} onClick={() => { 
+                    if (searchTerm != "")
+                        setGoToReactions(true) }}>search</button>
             </div>
             {compounds.filter((val) => { 
                 if (searchTerm == "") {

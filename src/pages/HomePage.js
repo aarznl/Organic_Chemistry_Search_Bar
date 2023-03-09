@@ -16,7 +16,7 @@ function HomePage() {
 
     return (
         <div className="App">
-            <h1> Organic Chemistry Retrosynthesis {searchTerm} </h1>
+            <h1> Organic Chemistry Retrosynthesis </h1>
             <div>
                 <input type="text" placeholder="Search..."
                     onChange={(event) => { // Code for search filter

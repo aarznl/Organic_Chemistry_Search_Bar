@@ -1,19 +1,22 @@
 import React, {useState} from "react";
-import { Navigate } from "react-router-dom";
+import { createSearchParams, Navigate, Link, useNavigate} from "react-router-dom";
 import compounds from '../compounds.json'
 
 
-export default function HomePage() {
+function HomePage() {
     const [searchTerm, setSearchTerm] = useState('')
     const [GoToReactions, setGoToReactions] = useState(false);
+    const navigate = useNavigate();
 
     if (GoToReactions) {
-        return <Navigate to="/reactions" />
-    }
+        return navigate("/reactions", {state: searchTerm}
+        );
+    };
+    
 
     return (
         <div className="App">
-            <h1> Organic Chemistry Retrosynthesis </h1>
+            <h1> Organic Chemistry Retrosynthesis {searchTerm} </h1>
             <div>
                 <input type="text" placeholder="Search..."
                     onChange={(event) => { // Code for search filter
@@ -32,10 +35,13 @@ export default function HomePage() {
             }).map((val, key) => {
                 return (
                     <div className="user" key={key}>
-                        <p>{val.Molecule}</p>
+                        <Link to="/reactions" state={val.Molecule}>{val.Molecule}</Link>
                     </div>);
             })}
         </div>
     )
 }
+
+export default HomePage;
+
 

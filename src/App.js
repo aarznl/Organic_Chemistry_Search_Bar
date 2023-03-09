@@ -10,7 +10,7 @@ function App() {
     <div>
       <Routes>
         <Route path='/' element={<HomePage/>}/>
-        <Route path='/reactions' element={<Reactions/>}/>
+        <Route path='/reactions' element={<Reactions authed={true}/>}/>
       </Routes>
     </div>
   );

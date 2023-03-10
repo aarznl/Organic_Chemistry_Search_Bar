@@ -26,7 +26,7 @@ function Reactions() {
                         <p><b>Acetal Formation</b></p>
                         <p><i>Addition of Alcohol to Aldehydes and Ketones</i></p>
                         <img src={acetal1} />
-                        <p>Add an alcohol with acid to a ketone to form the acetal. Note that the hemiacetal is an intermediary step but will naturally turn to an acetal in acidic conditions <span>&#40;</span>which is why we have H₂SO₄<span>&#41;</span>.</p>
+                        <p>Add an alcohol with acid to a ketone to form the acetal. Note that the hemiacetal is an intermediary step but will naturally turn to an acetal in acidic conditions, which is why we have H₂SO₄.</p>
                     </div>
                 )
             case 'addition of halogen':
@@ -75,11 +75,11 @@ function Reactions() {
                         <p><b>Adding Nitrite</b></p>
                         <p><i>EAS</i></p>
                         <img src={addbenring1} />
-                        <p>When adding HNO₃ with an aromatic ring, H₂SO<sub>4</sub> is necessary because HNO3 by itself cannot disrupt the aromatic ring. Note that NO₂ has a negative and positive charge.</p>
+                        <p>When adding HNO₃ with an aromatic ring, H₂SO₄ is necessary because HNO₃ by itself cannot disrupt the aromatic ring. Note that NO₂ has a negative and positive charge.</p>
                         <p><b>Sulfonation</b></p>
                         <p><i>EAS</i></p>
                         <img src={addbenring2} />
-                        <p>One SO₃ in H₂SO<sub>4</sub> <span>&#40;</span>or just SO₃<span>&#41;</span>. SO₃ can actually disrupt the aromatic ring by itself and H₂SO<sub>4</sub> is not needed. That being said, adding H₂SO<sub>4</sub> will make the reaction more efficient! </p>
+                        <p>One SO₃ in H₂SO₄ <span>&#40;</span>or just SO₃<span>&#41;</span>. SO₃ can actually disrupt the aromatic ring by itself and H₂SO₄ is not needed. That being said, adding H₂SO₄ will make the reaction more efficient! </p>
                         <p><b>Making Carboxylic Acids</b></p>
                         <p><i>Organometallic Reagents</i></p>
                         <img src={addbenring3} />
@@ -91,8 +91,7 @@ function Reactions() {
                         <p><b>EAS Halogenation</b></p>
                         <img src={addbenring5} />
                         <p>One Br₂ with a catalyst like AlX₃ or FeX₃. Reminder that Br₂ itself is not strong enough to disrupt an aromatic ring. You need a catalyst!</p>
-                        <p><b>New C-C Bond</b></p>
-                        <p><i>EAS</i></p>
+                        <p><b>EAS Friedel-Crafts Alkylation</b></p>
                         <img src={addbenring6} />
                         <p>When forming a Friedel-crafts alkylation, you can form a new C-C bond. That being said, the benzene ring product becomes more nucleophilic than the reactant <span>&#40;</span>because Methyl groups are electron-donating, so the aromatic ring will want to get rid of its extra electrons more, making it nucleophilic<span>&#41;</span>. Therefore, it is not super useful in synthesis due to polyalkylation! </p>
                     </div>
@@ -111,63 +110,61 @@ function Reactions() {
                         <p><b>Syn-Diols</b></p>
                         <p><i>Dihydroxylation</i></p>
                         <img src={alcohol10} />
-                        <p>The alkene is used to react with OsO<sub>4</sub> as step 1, and then H₂S is added to to create two alcohols on the same face. It is a syn diol because the oxygens are being added at the same time from the same molecule. </p>
+                        <p>The alkene is used to react with OsO₄ as step 1, and then H₂S is added to to create two alcohols on the same face. It is a syn diol because the oxygens are being added at the same time from the same molecule. </p>
+                        <p><b>Alkene Hydration</b></p>
+                        <p><i>Adding Hydrogen and Alcohol on Neighboring Carbons</i></p>
+                        <div class = "row">
+                            <div class = "column">
+                                <img src={alcohol5}/>
+                            </div>
+                            <div class = "column">
+                                <img src={alcohol4}/>
+                            </div>
+                        </div>
+                        <p>The pi electrons from the alkene attack a hydrogen on H₃O<sup>+</sup>, which kicks electrons from the H-O bond onto the oxygen, creating H₂O. The hydrogen is added in a markovnikov manner, which creates a positive charge on the most substituted carbon. H₂O acts as a nucleophile and attacks the positively charged carbon and attaches itself. Then another molecule of water deprotonates to create an OH group. Follows markovnikov<span>&#39;</span>s rule and is a mixed addition.</p>
+                        <p><b>Oxymercuration / Reduction</b></p>
+                        <p><i>Markovnikov Addition</i></p>
+                        <img src={alcohol6} />
+                        <p>Pi electrons from the alkene attack the mercury acetate, which then forms a three membered ring. The ring is formed because mercury leans over and shares its electrons with the positively charged carbon that is created. With a positively charged mercurinium ion, H₂O acts as a nucleophile and attacks the most substituted carbon. The ring opens and then HgOAc gets reduced to a hydrogen. This is a Markovnikov and a mix addition.</p>
+                        <p><b>Hydroboration / Oxidation</b></p>
+                        <p><i>Anti-Markovnikov Addition</i></p>
+                        <img src={alcohol7} />
+                        <p>The alkene acts as a nucleophile and attacks boron instead of hydrogen, since boron has six electrons and is more electropositive. The boron goes to the least substituted carbon, causing a hydrogen to jump to the most substituted carbon. This all happens in one concerted step. Once boron is added, it is oxidized with H₂O₂, creating an OH group where the boron was. This is an anti-Markovnikov and syn addition. It is a syn addition because the addition of the hydrogen and boron happen in a single concerted step.</p>
+                        <p><b>Nucleophilic Acyl Attaack</b></p>
+                        <p><i>Hydride as a Nucleophile</i></p>
+                        <img src={alcohol8} />
+                        <p>This is an overall reduction of a carbonyl to an alcohol. NaBH₄ can also react while in H₂O. Another potential species is LiAlH₄ which must be in nonprotic species because it is highly reactive!</p>
+                        <p><b>Nucleophilic Substitution</b></p>
+                        <p><i>Sn1 Mechanism</i></p>
+                        <img src={alcohol9} />
+                        <p>This is an Sn1 mechanism because H₂O is a bad nucleophile. First the leaving group leaves to form a carbocation intermediate. Water then acts as the nucleophile attacking the carbocation to form the new product. </p>
                         <p><b>Using an Organometallic Reagent</b></p>
                         <img src={alcohol3} />
                         <p>Using an organometallic reagent allows for the reduction of a carbonyl into an alcohol. Remember to include workup and number your reaction when doing retrosynthesis! Workup can be indicated by writing “aqueous workup” or “H₂O”. This does not work with protic species because deprotonation will occur instead.</p>
-                        <p><b>____</b></p>
-                        <p><i> </i></p>
-                        <img src={alcohol4} />
-                        <p> </p>
-                        <p><b>____</b></p>
-                        <p><i> </i></p>
-                        <img src={alcohol5} />
-                        <p> </p>
-                        <p><b>____</b></p>
-                        <p><i> </i></p>
-                        <img src={alcohol6} />
-                        <p> </p>
-                        <p><b>____</b></p>
-                        <p><i> </i></p>
-                        <img src={alcohol7} />
-                        <p> </p>
-                        <p><b>____</b></p>
-                        <p><i> </i></p>
-                        <img src={alcohol8} />
-                        <p> </p>
-                        <p><b>____</b></p>
-                        <p><i> </i></p>
-                        <img src={alcohol9} />
-                        <p> </p>
-                        <p><b>____</b></p>
-                        <p><i> </i></p>
+                        <p><b>Carboxylic Reduction</b></p>
                         <img src={alcohol11} />
-                        <p> </p>
-                        <p><b>____</b></p>
-                        <p><i> </i></p>
+                        <p>Reducing a carboxylic acid into a primary alcohol by a strong reducing agent. Mechanism is not well known</p>
+                        <p><b>Aldol Reaction</b></p>
+                        <p><i>Enols and Enolates</i></p>
                         <img src={alcohol12} />
-                        <p> </p>
+                        <p>In this reaction, aldehydes act as both nucleophiles and electrophiles. NaOH is used because it is not that strong of a base, meaning that in solution there will be both enolates and aldehydes, which is what the reaction is between.</p>
                     </div>
                 )
             case 'aldehydes':
                 return(
                     <div>
-                        <p><b>____</b></p>
-                        <p><i> </i></p>
-                        <img src={aldehyde1} />
-                        <p> </p>
-                        <p><b>____</b></p>
-                        <p><i> </i></p>
-                        <img src={aldehyde2} />
-                        <p> </p>
-                        <p><b>____</b></p>
-                        <p><i> </i></p>
+                        <p><b>Ozonolysis</b></p>
+                        <p><i>Creating Two Ketones</i></p>
                         <img src={aldehyde3} />
-                        <p> </p>
-                        <p><b>____</b></p>
-                        <p><i> </i></p>
+                        <img src={aldehyde1} />
+                        <p>O₃ is used to break apart C-C double bonds and creates two carbonyls out of them. Is capable of forming ketones and aldehydes, depending on what substituents are on the carbons. If ozonolysis is done on a ring, it breaks apart the ring, although it stays as one molecule.</p>
+                        <p><b>Oxidation with PCC</b></p>
+                        <img src={aldehyde2} />
+                        <p>This is an oxidation of a primary alcohol into an aldehyde. PCC is NOT strong enough to break C-C bonds.</p>
+                        <p><b>Hydroboration / Oxidation</b></p>
+                        <p><i>Requires Alkyne with Enol Intermediate</i></p>
                         <img src={aldehyde4} />
-                        <p> </p>
+                        <p>The nucleophilic pi bond attacks the boron, which then causes the hydrogen to jump onto the C-C bond in an anti-markovnikov manner. Then in step 2, oxidation takes place, which causes the enol to tautomerize into the aldehyde. </p>
                     </div>
                 )
             case 'alkanes':
@@ -221,38 +218,41 @@ function Reactions() {
             case 'c-c bonds':
                 return(
                     <div>
-                        <p><b>___</b></p>
+                        <p><b>Alpha-Alkylation</b></p>
+                        <p><i>Enols and Enolates</i></p>
                         <img src={ccbond1} />
-                        <p> </p>
-                        <p><b>___</b></p>
-                        <img src={ccbond2} />
-                        <p> </p>
-                        <p><b>___</b></p>
-                        <img src={ccbond3} />
-                        <p> </p>
-                        <p><b>___</b></p>
+                        <p>Remember to number your steps because you first want to form the enolate! </p>
+                        <p><b>Aldol Condensation</b></p>
+                        <p><i>Enols and Enolates</i></p>
                         <img src={ccbond4} />
-                        <p> </p>
-                        <p><b>___</b></p>
+                        <p>Adding heat helps to pop off an -OH group. </p>
+                        <p><b>Organometallic Reagents</b></p>
+                        <p><i>Using an Organometallic Reagent</i></p>
+                        <img src={ccbond3} />
+                        <p>Using an organometallic reagent allows for the reduction of a carbonyl into an alcohol and the attachment of C-C bonds. Remember to include workup and number your reaction when doing retrosynthesis! Workup can be indicated by writing “aqueous workup” or “H₂O”. This does not work with protic species because deprotonation will occur instead.</p>
+                        <p><i>Organolithium Reagents</i></p>
+                        <img src={ccbond2} />
+                        <p>Organolithium reagents are carbon nucleophiles that allow for the formation of new C-C bonds. This allows you to modify the carbon backbone.</p>
+                        <p><i>Grignard Reagent</i></p>
                         <img src={ccbond5} />
-                        <p> </p>
-                        <p><b>___</b></p>
+                        <p>Grignard reagents are useful in reductions from carbonyls into alcohols. They are carbon nucleophiles allowing for the formation of new C-C bonds.</p>
+                        <p><b>Adding Alkynes</b></p>
                         <img src={ccbond6} />
-                        <p> </p>
-                        <p><b>___</b></p>
+                        <p>To turn terminal alkyne into a good nucleophile, there needs to be protonation through the use of a strong base. Because protons are hard to rip off of a carbon, a strong base, like LDA, NaH, or NaNH₂ are necessary. NaOH is not strong enough due to having a pKa of about 16. The resulting terminal alkyne nucleophile can create new C-C bonds with other molecules.</p>
+                        <p><b>EAS Friedel-Crafts Alkylation</b></p>
                         <img src={ccbond7} />
-                        <p> </p>
+                        <p>When forming a Friedel-crafts alkylation, you can form a new C-C bond. That being said, the benzene ring product becomes more nucleophilic than the reactant because Methyl groups are electron-donating, so the aromatic ring will want to get rid of its extra electrons more, making it nucleophilic. Therefore, it’s not super useful in synthesis due to polyalkylation! </p>
                     </div>
                 )
             case 'carboxylic acids':
                 return(
                     <div>
-                        <p><b>___</b></p>
+                        <p><b>Organometallic Reagents</b></p>
                         <img src={carboxy1} />
-                        <p> </p>
-                        <p><b>___</b></p>
+                        <p>Remember to number your steps for this one! Also, H₃O<sup>+</sup> is used because once you add CO₂, you actually form a pretty stable base that is not that reactive. </p>
+                        <p><b>Oxidation of Primary Alcohols or Aldehydes</b></p>
                         <img src={carboxy2} />
-                        <p> </p>
+                        <p>This is known as Jone<span>&#39;</span>s Reagent, which includes chromate which is a very good oxidizing agent. Jone<span>&#39;</span>s Reagent can also be seen as H₂CrO₄ or Na₂Cr₂O₇.</p>
                     </div>
                 )
             case 'deoxygenation':
@@ -266,15 +266,14 @@ function Reactions() {
             case 'epoxides':
                 return(
                     <div>
-                        <p><b>___</b></p>
+                        <p><b>Sharpless Asymmetric Epoxidation</b></p>
                         <img src={epoxide1} />
-                        <p> </p>
-                        <p><b>___</b></p>
+                        <p>The SAE only forms one enantiomer of an epoxide and requires an allylic alcohol. If diethyltartrate <span>&#40;</span>DET<span>&#41;</span> is <span>&#40;</span>-<span>&#41;</span> the top facing <span>&#40;</span>wedge<span>&#41;</span> form of the epoxide is made. If DET is <span>&#40;</span>+<span>&#41;</span>, then the bottom facing <span>&#40;</span>dashed<span>&#41;</span> form of the epoxide is created.</p>
+                        <p><b>General Epoxidation</b></p>
                         <img src={epoxide2} />
-                        <p> </p>
-                        <p><b>___</b></p>
+                        
                         <img src={epoxide3} />
-                        <p> </p>
+                        <p>Not stereo or enantioselective. The alkene attacks the weak O-O single bond on mCPBA. The electrons from the O-O bond then create a carbon and oxygen double bond. This causes the pi electrons from the original double bonded oxygen to attack the hydrogen and creates an OH group. Leading to the alkene to form a three membered ring with oxygen. CH₂Cl₂ is added as a solvent because it is an aprotic solvent. No regiochemical outcome because the same atom is added to both sides. Syn addition because the same atom is being added to both carbons. </p>
                     </div>
                 )
             case 'esters':
@@ -304,23 +303,22 @@ function Reactions() {
                     <div>
                         <p><b>Imines</b></p>
                         <img src={imine1} />
-                        <p>Adding an amine to a ketone in acid will form an imine. Note that the hemiaminal is an intermediary step but will naturally turn to an imine in acidic conditions, which is why we have H₂SO<sub>4</sub>. </p>
+                        <p>Adding an amine to a ketone in acid will form an imine. Note that the hemiaminal is an intermediary step but will naturally turn to an imine in acidic conditions, which is why we have H₂SO₄. </p>
                     </div>
                 )
             case 'ketones':
                 return(
                     <div>
-                        <p><b>___</b></p>
+                        <p><b>Ozonolysis</b></p>
+                        <p><i>Creating Two Ketones</i></p>
+                        <img src={ketone4} />
                         <img src={ketone1} />
-                        <p> </p>
+                        <p>O₃ is used to break apart C-C double bonds and creates two carbonyls out of them. Is capable of forming ketones and aldehydes, depending on what substituents are on the carbons. If ozonolysis is done on a ring, it breaks apart the ring, although it stays as one molecule.</p>
                         <p><b>___</b></p>
                         <img src={ketone2} />
                         <p> </p>
                         <p><b>___</b></p>
                         <img src={ketone3} />
-                        <p> </p>
-                        <p><b>___</b></p>
-                        <img src={ketone4} />
                         <p> </p>
                         <p><b>___</b></p>
                         <img src={ketone5} />
@@ -382,4 +380,4 @@ export default Reactions;
 
 
 
-// <p> This is known as Jone<span>&#39;</span>s Reagent, which includes chromate which is a very good oxidizing agent. Jone<span>&#39;</span>s Reagent can also be seen as H₂CrO₄ or Na₂Cr₂O<sub>7</sub>.</p>
+// <p> This is known as Jone<span>&#39;</span>s Reagent, which includes chromate which is a very good oxidizing agent. Jone<span>&#39;</span>s Reagent can also be seen as H₂CrO₄ or Na₂Cr₂O₇.</p>

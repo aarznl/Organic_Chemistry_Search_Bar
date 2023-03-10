@@ -343,12 +343,12 @@ function Reactions() {
                 )
 
             default: // ADD SOMETHING LATER??
-            return(
-                <div>
-                    <p><b>You did not input a valid molecule!</b></p>
-                    <p><i>Please input one of the listed molecules.</i></p>
-                </div>
-            )
+                return(
+                    <div>
+                        <p>Sorry, this type of molecule or reaction does not exist. Please select another option from the home page.</p>
+                    </div>
+                )
+            return null
         }
     }
     

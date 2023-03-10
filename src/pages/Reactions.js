@@ -1,7 +1,17 @@
 import React, { useState } from "react";
 import { Navigate, useLocation } from "react-router-dom";
-import alkyne from '../images/alkyne1.png';
-import alkene1 from '../images/alkene1.png';
+import {
+    acetal1, addbenring1, addbenring2, addbenring3, addbenring4, addbenring5, 
+    addbenring6, addhalo1, addhalo2, addhalo3, addhalo4, addhalo5, addhalo6,
+    addhalo7, addhalo8, addhalo9, addhalo10, alcohol1, alcohol2, alcohol3, 
+    alcohol4, alcohol5, alcohol6, alcohol7, alcohol8, alcohol9, alcohol10,
+    alcohol11, alcohol12, aldehyde1, aldehyde2, aldehyde3, aldehyde4, 
+    alkane1, alkane2, alkene1, alkene2, alkene3, alkene4, alkyne1, amide1, 
+    carboxy1, carboxy2, ccbond1, ccbond2, ccbond3, ccbond4, ccbond5, ccbond6, 
+    ccbond7, deoxy1, epoxide1, epoxide2, epoxide3, ether1, ether2, ether3, 
+    ether4, imine1, ketone1, ketone2, ketone3, ketone4, ketone5, ring1, 
+    taut1, taut2
+  } from '../images';
 
 function Reactions() {
     const [GoToReactions, setGoToReactions] = useState(false);

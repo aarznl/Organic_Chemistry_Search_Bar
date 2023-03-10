@@ -341,17 +341,7 @@ function Reactions() {
                         <p>A diene reacts with a dienophile and must be reacted in heat. This is a concerted mechanism that happens in one step. </p>
                     </div>
                 )
-            // case 'tautomerization':
-            //     return(
-            //         <div>
-            //             <p><b>___</b></p>
-            //             <img src={taut1} />
-            //             <p> </p>
-            //             <p><b>___</b></p>
-            //             <img src={taut2} />
-            //             <p> </p>
-            //         </div>
-            //     )
+
             default: // ADD SOMETHING LATER??
             return null
         }
@@ -381,4 +371,3 @@ export default Reactions;
 
 
 
-// <p> This is known as Jone<span>&#39;</span>s Reagent, which includes chromate which is a very good oxidizing agent. Jone<span>&#39;</span>s Reagent can also be seen as H₂CrO₄ or Na₂Cr₂O₇.</p>

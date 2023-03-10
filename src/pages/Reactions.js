@@ -27,10 +27,13 @@ function Reactions() {
                         <img src={alkene1} />
                         <p>Birch Reduction, or also called dissolving metal reduction, is used to turn alkyne into a trans alkene.</p>
                         <p><b>Cis Alkene</b></p>
-                        <img src={alkene2} />
                         <p><i>Requires alkyne</i></p>
+                        <img src={alkene2} />
                         <p>H<sub>2</sub> is added on the same side across the pi bond. The alkyne turns into a cis alkene and the addition of Lindlar<span>&#39;</span>s catalyst prevents further reduction into an alkane.</p>
-                        <p><b></b></p>
+                        <p><b>Aldol Condensation</b></p>
+                        <img src={alkene3} />
+                        <p>Adding heat helps to pop off an -OH group.</p>
+                        
                     </div>
                 )
             // case 'alkynes':

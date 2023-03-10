@@ -13,11 +13,19 @@ function Reactions() {
             case 'alkenes':
                 return(
                     <div>
+                        <p><b> Trans Alkene</b></p>
                         <img src={alkene1} />
                         <p>Birch reduction, or also called dissolving metal reduction, used to turn alkyne into trans alkene.</p>
                     </div>
                 )
-            default: 
+            // case 'alkynes':
+            //     return(
+            //         <div>
+            //             <img src={} />
+            //             <p></p>
+            //         </div>
+            //     )
+            default:
             return null
         }
     }

@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { createSearchParams, Navigate, Link, useNavigate} from "react-router-dom";
+import { Link, useNavigate} from "react-router-dom";
 import compounds from '../compounds.json'
 
 

@@ -361,7 +361,7 @@ function Reactions() {
 
     return (
         <div>
-            <h1>SIKE! THAT'S A {location.state} !</h1>
+            <h1>SIKE! THAT'S {location.state.toUpperCase()}!</h1>
             <div>
                 {image()}
             </div>

@@ -83,7 +83,7 @@ function Reactions() {
                         <p><b>Making Carboxylic Acids</b></p>
                         <p><i>Organometallic Reagents</i></p>
                         <img src={addbenring3} />
-                        <p> Remember to number your steps for this one! Also, H<sub>3</sub>O+ is used because once you add CO<sub>2</sub>, you actually form a pretty stable base that isn<span>&#39;</span>t that reactive. </p>
+                        <p> Remember to number your steps for this one! Also, H<sub>3</sub>O+ is used because once you add CO<sub>2</sub>, you actually form a pretty stable base that is not that reactive. </p>
                         <p><b>Making an Alkene on a Ring</b></p>
                         <p><i>E2 Reaction</i></p>
                         <img src={addbenring4} />
@@ -135,6 +135,47 @@ function Reactions() {
                         <p><b>Double Elimination</b></p>
                         <img src={alkyne1} />
                         <p>Br<sub>2</sub> is added across the pi bond, which creates two leaving groups. The strong base in step two will pull off protons and then kick off bromines, creating an alkyne. Two equivalents of a strong base are necessary because there are more than two hydrogens that could be reacted with.</p>
+                    </div>
+                )
+            case 'amidation':
+                return(
+                    <div>
+                        <p><b>Amidation</b></p>
+                        <img src={amide1} />
+                        <p>Turning a carboxylic acid into an amide by adding heat. </p>
+                    </div>
+                )
+            case 'deoxygenation':
+                return(
+                    <div>
+                        <p><b>Carbonyl Deoxygenation</b></p>
+                        <img src={deoxy1} />
+                        <p>To turn a carbonyl into just a C-C bond, either use the Clemmensen Reduction for acidic conditions with Zn<span>&#40;</span>Hg<span>&#41;</span>, HCl, or the Wolff-Kishner Reduction for basic conditions with H<sub>2</sub>N-N<sub>2</sub>H, KOH, and heat.</p>
+                    </div>
+                )
+            case 'esters':
+                return(
+                    <div>
+                        <p><b>Making Esters</b></p>
+                        <img src={ester1} />
+                        <p>Note that this reaction can go in reverse, so you can make a carboxylic acid from an ester!</p>
+                    </div>
+                )
+            case 'imines':
+                return(
+                    <div>
+                        <p><b>Imines</b></p>
+                        <img src={imine1} />
+                        <p>Adding an amine to a ketone in acid will form an imine. Note that the hemiaminal is an intermediary step but will naturally turn to an imine in acidic conditions, which is why we have H<sub>2</sub>SO<sub>4</sub>. </p>
+                    </div>
+                )
+            case 'rings':
+                return(
+                    <div>
+                        <p><b>Diels Alder</b></p>
+                        <p><i>6-Membered Ring</i></p>
+                        <img src={acetal1} />
+                        <p>A diene reacts with a dienophile and must be reacted in heat. This is a concerted mechanism that happens in one step. </p>
                     </div>
                 )
             default:

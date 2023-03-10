@@ -343,7 +343,12 @@ function Reactions() {
                 )
 
             default: // ADD SOMETHING LATER??
-            return null
+            return(
+                <div>
+                    <p><b>You did not input a valid molecule!</b></p>
+                    <p><i>Please input one of the listed molecules.</i></p>
+                </div>
+            )
         }
     }
     
@@ -353,6 +358,12 @@ function Reactions() {
         return <Navigate to="/" />
     }
 
+    const handleKeyDown = (event) => {
+        if (event.key === 'Enter') {
+            setGoToReactions(true)
+        };
+      };
+
 
     return (
         <div>
@@ -361,6 +372,7 @@ function Reactions() {
                 {image()}
             </div>
             <button style={{ marginLeft: 6 }} onClick={() => { setGoToReactions(true) }}>return</button>
+            <input value="" onKeyDown={handleKeyDown}/>
         </div>
     )
 }

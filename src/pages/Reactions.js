@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Navigate, useLocation } from "react-router-dom";
 import alkyne from '../images/alkyne1.png';
 import alkene1 from '../images/alkene1.png';
-import alkene2 from '../images/alkene2.png';
 
 function Reactions() {
     const [GoToReactions, setGoToReactions] = useState(false);

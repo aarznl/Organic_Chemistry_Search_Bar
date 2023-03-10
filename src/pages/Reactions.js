@@ -271,7 +271,7 @@ function Reactions() {
                         <p>The SAE only forms one enantiomer of an epoxide and requires an allylic alcohol. If diethyltartrate <span>&#40;</span>DET<span>&#41;</span> is <span>&#40;</span>-<span>&#41;</span> the top facing <span>&#40;</span>wedge<span>&#41;</span> form of the epoxide is made. If DET is <span>&#40;</span>+<span>&#41;</span>, then the bottom facing <span>&#40;</span>dashed<span>&#41;</span> form of the epoxide is created.</p>
                         <p><b>General Epoxidation</b></p>
                         <img src={epoxide2} />
-                        
+
                         <img src={epoxide3} />
                         <p>Not stereo or enantioselective. The alkene attacks the weak O-O single bond on mCPBA. The electrons from the O-O bond then create a carbon and oxygen double bond. This causes the pi electrons from the original double bonded oxygen to attack the hydrogen and creates an OH group. Leading to the alkene to form a three membered ring with oxygen. CH₂Cl₂ is added as a solvent because it is an aprotic solvent. No regiochemical outcome because the same atom is added to both sides. Syn addition because the same atom is being added to both carbons. </p>
                     </div>
@@ -287,15 +287,15 @@ function Reactions() {
             case 'ethers':
                 return(
                     <div>
-                        <p><b>___</b></p>
+                        <p><b>Acidic Conditions with Heat</b></p>
                         <img src={ether1} />
-                        <p> </p>
-                        <p><b>___</b></p>
+                        <p>When in an acidic solution, think protonation. The alcohol will first become protonated, which allows for another primary alcohol group to attack the alpha carbon, kicking off the OH₂ group. This reaction only creates symmetrical ethers. Because this involves acid and heat is applied, side reactions such as E2 also occur. </p>
+                        <p><b>Sn1 Reaction</b></p>
                         <img src={ether2} />
-                        <p> </p>
-                        <p><b>___</b></p>
+                        <p>MeOH is a bad nucleophile, pushing it towards an Sn1 mechanism, which can be used in the creation of an ether on a sterically hindered electrophile where an Sn2 mech would not occur.</p>
+                        <p><b>Williamson Ether Synthesis</b></p>
                         <img src={ether3} />
-                        <p> </p>
+                        <p>In this synthesis, NaH is acting as the base to deprotonate in DMF, which is a polar aprotic solvent. The ethyl bromide is acting as the electrophile. Beware! If there is a potential nucleophile and electrophile within the molecule, an intramolecular reaction will occur faster than an intermolecular one. </p>
                     </div>
                 )
             case 'imines':
@@ -314,21 +314,22 @@ function Reactions() {
                         <img src={ketone4} />
                         <img src={ketone1} />
                         <p>O₃ is used to break apart C-C double bonds and creates two carbonyls out of them. Is capable of forming ketones and aldehydes, depending on what substituents are on the carbons. If ozonolysis is done on a ring, it breaks apart the ring, although it stays as one molecule.</p>
-                        <p><b>___</b></p>
-                        <img src={ketone2} />
-                        <p> </p>
-                        <p><b>___</b></p>
-                        <img src={ketone3} />
-                        <p> </p>
-                        <p><b>___</b></p>
+                        <p><b>Using Tautomerization</b></p>
+                        <p><i>HgSO₄ Hydration</i></p>
                         <img src={ketone5} />
-                        <p> </p>
-                        <p><b>___</b></p>
+                        <p>The whole process is one step, and it is mercury sulfate placed in acidic water. H₂O is added. It is a Markovnikov addition. There is no stereochemistry after the tautomerization.</p>
+                        <p><i>Hydration in Acidic Conditions</i></p>
                         <img src={ketone6} />
-                        <p> </p>
-                        <p><b>___</b></p>
+                        <p>The enol gets protonated in acidic conditions via the pi bond reacting with a hydrogen. As a result, the lone pairs from oxygen kick down to form a double bond. A molecule of water deprotonates the positively charged oxygen in order to create the corresponding ketone from tautomerization.</p>
+                        <p><i>Hydration in Basic Conditions</i></p>
                         <img src={ketone7} />
-                        <p> </p>
+                        <p>The enol gets deprotonated by OH<sup>-</sup> and then the nucleophilic carbon pi bond picks up a hydrogen off of water. When this happens, oxygen kicks down a lone pair that forms a double bond with oxygen.</p>
+                        <p><b>EAS Friedel-Crafts Acylation</b></p>
+                        <img src={ketone2} />
+                        <p>By adding an acyl chloride to an aromatic ring, you are adding an electron-withdrawing group, resulting in a product that is more electrophilic than the reactant. This means the acyl chloride would rather attack the aromatic ring than the aromatic ring substituted with an acyl group. </p>
+                        <p><b>Alcohol with PCC Oxidation</b></p>
+                        <img src={ketone3} />
+                        <p>This is an oxidation of a secondary alcohol into a ketone. PCC is NOT strong enough to break C-C bonds.</p>
                     </div>
                 )
             case 'rings':

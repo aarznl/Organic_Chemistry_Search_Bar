@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Navigate, useLocation } from "react-router-dom";
-import alkyne from '../images/alkyne.png';
+import alkyne from '../images/alkyne1.png';
 import alkene1 from '../images/alkene1.png';
 
 function Reactions() {
@@ -12,7 +12,10 @@ function Reactions() {
         switch (location.state) {
             case 'Alkenes':
                 return(
-                    <img src={alkene1} />
+                    <div>
+                        <img src={alkene1} />
+                        <p>Birch reduction, or also called dissolving metal reduction, used to turn alkyne into trans alkene.</p>
+                    </div>
                 )
             default: 
             return null

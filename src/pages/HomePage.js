@@ -12,6 +12,13 @@ function HomePage() {
         return navigate("/reactions", {state: searchTerm}
         );
     };
+
+    const handleKeyDown = (event) => {
+        if (event.key === 'Enter') {
+            navigate("/reactions", {state: searchTerm}
+        );
+        };
+      };
     
 
     return (
@@ -22,6 +29,7 @@ function HomePage() {
                     onChange={(event) => { // Code for search filter
                         setSearchTerm(event.target.value);
                     }}
+                    onKeyDown={handleKeyDown}
                 />
                 <button style={{ marginLeft: 6 }} onClick={() => { 
                     if (searchTerm != "")

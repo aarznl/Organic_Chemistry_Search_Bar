@@ -9,7 +9,7 @@ import {
     alkane1, alkane2, alkene1, alkene2, alkene3, alkene4, alkyne1, amide1, 
     carboxy1, carboxy2, ccbond1, ccbond2, ccbond3, ccbond4, ccbond5, ccbond6, 
     ccbond7, deoxy1, epoxide1, epoxide2, epoxide3, ether1, ether2, ether3, 
-    ester1, imine1, ketone1, ketone2, ketone3, ketone4, ketone5, ring1, 
+    ester1, imine1, ketone1, ketone2, ketone3, ketone4, ketone5, ketone6, ketone7, ring1, 
     taut1, taut2
   } from '../images';
 

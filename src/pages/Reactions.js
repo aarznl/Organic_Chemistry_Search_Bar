@@ -13,9 +13,10 @@ function Reactions() {
             case 'alkenes':
                 return(
                     <div>
-                        <p><b> Trans Alkene</b></p>
+                        <p><b> Trans Alkene <span>&#40;</span>Birch Reduction<span>&#41;</span></b></p>
                         <img src={alkene1} />
-                        <p>Birch reduction, or also called dissolving metal reduction, used to turn alkyne into trans alkene.</p>
+                        <p>Birch Reduction, or also called dissolving metal reduction, used to turn alkyne into trans alkene.</p>
+
                     </div>
                 )
             // case 'alkynes':

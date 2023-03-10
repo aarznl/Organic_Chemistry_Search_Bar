@@ -26,7 +26,7 @@ function Reactions() {
                         <p><b>Acetal Formation</b></p>
                         <p><i>Addition of Alcohol to Aldehydes and Ketones</i></p>
                         <img src={acetal1} />
-                        <p>Add an alcohol with acid to a ketone to form the acetal. Note that the hemiacetal is an intermediary step but will naturally turn to an acetal in acidic conditions <span>&#40;</span>which is why we have H<sub>2</sub>SO<sub>4</sub><span>&#41;</span>.</p>
+                        <p>Add an alcohol with acid to a ketone to form the acetal. Note that the hemiacetal is an intermediary step but will naturally turn to an acetal in acidic conditions <span>&#40;</span>which is why we have H₂SO₄<span>&#41;</span>.</p>
                     </div>
                 )
             case 'addition of halogen':
@@ -49,7 +49,7 @@ function Reactions() {
                         <p><b>Alcohol Reactions</b></p>
                         <p><i>Using Inorganic Acids</i></p>
                         <img src={addhalo5} />
-                        <p>Because this mechanism is Sn1 or Sn2, using inorganic acids is preferential to primary or secondary alcohols. Potential reagents include PBr<sub>3</sub>, PI<sub>3</sub>, PCl<sub>3</sub>, and SOCl<sub>2</sub>.</p>
+                        <p>Because this mechanism is Sn1 or Sn2, using inorganic acids is preferential to primary or secondary alcohols. Potential reagents include PBr₃, PI₃, PCl₃, and SOCl₂.</p>
                         <p><b>Alcohol Reactions</b></p>
                         <p><i>Using Organic Compounds and Acids</i></p>
                         <img src={addhalo8} />
@@ -58,15 +58,15 @@ function Reactions() {
                         <p><b>Alpha-Halogenation</b></p>
                         <p><i>Enols and Enolates</i></p>
                         <img src={addhalo6} />
-                        <p>Use acetic acid and Br<sub>2</sub> to form a Br at the alpha position to the carbonyl. Note that we are using an acid here instead of a strong base because the product is more acidic than the reactant <span>&#40;</span>Br is an electron-withdrawing group, which means when there is a negative charge Br will inductively help to hold the negative charge if there is deprotonation<span>&#41;</span>. That is why you have the reaction in acid, which means the reactant will now act as a base. </p>
+                        <p>Use acetic acid and Br₂ to form a Br at the alpha position to the carbonyl. Note that we are using an acid here instead of a strong base because the product is more acidic than the reactant <span>&#40;</span>Br is an electron-withdrawing group, which means when there is a negative charge Br will inductively help to hold the negative charge if there is deprotonation<span>&#41;</span>. That is why you have the reaction in acid, which means the reactant will now act as a base. </p>
                         <p><b>EAS Halogenation</b></p>
                         <p><i>Adding to a Benzene Ring</i></p>
                         <img src={addhalo7} />
-                        <p>One Br<sub>2</sub> with a catalyst like AlX<sub>3</sub> or FeX<sub>3</sub>. Reminder that Br<sub>2</sub> itself is not strong enough to disrupt an aromatic ring. You need a catalyst! </p>
+                        <p>One Br₂ with a catalyst like AlX₃ or FeX₃. Reminder that Br₂ itself is not strong enough to disrupt an aromatic ring. You need a catalyst! </p>
                         <p><b>Making Acyl Chloride</b></p>
                         <p><i>Alcohol to Cl</i></p>
                         <img src={addhalo10} />
-                        <p>Add SOCl<sub>2</sub> to a carboxylic acid to replace an alcohol with Cl.</p>
+                        <p>Add SOCl₂ to a carboxylic acid to replace an alcohol with Cl.</p>
                     </div>
                 )
             case 'addition to benzene ring':
@@ -75,26 +75,99 @@ function Reactions() {
                         <p><b>Adding Nitrite</b></p>
                         <p><i>EAS</i></p>
                         <img src={addbenring1} />
-                        <p>When adding HNO<sub>3</sub> with an aromatic ring, H<sub>2</sub>SO<sub>4</sub> is necessary because HNO3 by itself cannot disrupt the aromatic ring. Note that NO<sub>2</sub> has a negative and positive charge.</p>
+                        <p>When adding HNO₃ with an aromatic ring, H₂SO<sub>4</sub> is necessary because HNO3 by itself cannot disrupt the aromatic ring. Note that NO₂ has a negative and positive charge.</p>
                         <p><b>Sulfonation</b></p>
                         <p><i>EAS</i></p>
                         <img src={addbenring2} />
-                        <p>One SO<sub>3</sub> in H<sub>2</sub>SO<sub>4</sub> <span>&#40;</span>or just SO<sub>3</sub><span>&#41;</span>. SO<sub>3</sub> can actually disrupt the aromatic ring by itself and H<sub>2</sub>SO<sub>4</sub> is not needed. That being said, adding H<sub>2</sub>SO<sub>4</sub> will make the reaction more efficient! </p>
+                        <p>One SO₃ in H₂SO<sub>4</sub> <span>&#40;</span>or just SO₃<span>&#41;</span>. SO₃ can actually disrupt the aromatic ring by itself and H₂SO<sub>4</sub> is not needed. That being said, adding H₂SO<sub>4</sub> will make the reaction more efficient! </p>
                         <p><b>Making Carboxylic Acids</b></p>
                         <p><i>Organometallic Reagents</i></p>
                         <img src={addbenring3} />
-                        <p> Remember to number your steps for this one! Also, H<sub>3</sub>O+ is used because once you add CO<sub>2</sub>, you actually form a pretty stable base that is not that reactive. </p>
+                        <p> Remember to number your steps for this one! Also, H₃O<sup>+</sup> is used because once you add CO₂, you actually form a pretty stable base that is not that reactive. </p>
                         <p><b>Making an Alkene on a Ring</b></p>
                         <p><i>E2 Reaction</i></p>
                         <img src={addbenring4} />
                         <p>Potassium tert-butoxide is a strong base, which pushes towards an E2 mechanism, enabling the creation of an alkene.</p>
                         <p><b>EAS Halogenation</b></p>
                         <img src={addbenring5} />
-                        <p>One Br<sub>2</sub> with a catalyst like AlX<sub>3</sub> or FeX<sub>3</sub>. Reminder that Br<sub>2</sub> itself is not strong enough to disrupt an aromatic ring. You need a catalyst!</p>
+                        <p>One Br₂ with a catalyst like AlX₃ or FeX₃. Reminder that Br₂ itself is not strong enough to disrupt an aromatic ring. You need a catalyst!</p>
                         <p><b>New C-C Bond</b></p>
                         <p><i>EAS</i></p>
                         <img src={addbenring6} />
                         <p>When forming a Friedel-crafts alkylation, you can form a new C-C bond. That being said, the benzene ring product becomes more nucleophilic than the reactant <span>&#40;</span>because Methyl groups are electron-donating, so the aromatic ring will want to get rid of its extra electrons more, making it nucleophilic<span>&#41;</span>. Therefore, it is not super useful in synthesis due to polyalkylation! </p>
+                    </div>
+                )
+            case 'alcohols':
+                return(
+                    <div>
+                        <p><b>Addition of Halohydrin</b></p>
+                        <p><i>Requires alkene in protonating conditions</i></p>
+                        <img src={alcohol1} />
+                        <p>The pi electrons from the alkene grab the bromine. Water then acts as the nucleophile, attacking the epoxide ring to relieve the steric hindrance. The nucleophile back attacks the more substituted carbon. This results in an inversion of stereochem and an anti addition of the alcohol and halide groups.</p>
+                        <p><b>Anti-Diols</b></p>
+                        <p><i>Dihydroxylation</i></p>
+                        <img src={alcohol2} />
+                        <p>mCPBA is used to form an epoxide through the use of an alkene. The ring is then opened by OH<sup>-</sup>, which adds itself to the opposite face. Then workup takes place to protonate the O<sup>-</sup>, to become OH, creating an anti-addition of two OH groups. </p>
+                        <p><b>Syn-Diols</b></p>
+                        <p><i>Dihydroxylation</i></p>
+                        <img src={alcohol10} />
+                        <p>The alkene is used to react with OsO<sub>4</sub> as step 1, and then H₂S is added to to create two alcohols on the same face. It is a syn diol because the oxygens are being added at the same time from the same molecule. </p>
+                        <p><b>Using an Organometallic Reagent</b></p>
+                        <img src={alcohol3} />
+                        <p>Using an organometallic reagent allows for the reduction of a carbonyl into an alcohol. Remember to include workup and number your reaction when doing retrosynthesis! Workup can be indicated by writing “aqueous workup” or “H₂O”. This does not work with protic species because deprotonation will occur instead.</p>
+                        <p><b>____</b></p>
+                        <p><i> </i></p>
+                        <img src={alcohol4} />
+                        <p> </p>
+                        <p><b>____</b></p>
+                        <p><i> </i></p>
+                        <img src={alcohol5} />
+                        <p> </p>
+                        <p><b>____</b></p>
+                        <p><i> </i></p>
+                        <img src={alcohol6} />
+                        <p> </p>
+                        <p><b>____</b></p>
+                        <p><i> </i></p>
+                        <img src={alcohol7} />
+                        <p> </p>
+                        <p><b>____</b></p>
+                        <p><i> </i></p>
+                        <img src={alcohol8} />
+                        <p> </p>
+                        <p><b>____</b></p>
+                        <p><i> </i></p>
+                        <img src={alcohol9} />
+                        <p> </p>
+                        <p><b>____</b></p>
+                        <p><i> </i></p>
+                        <img src={alcohol11} />
+                        <p> </p>
+                        <p><b>____</b></p>
+                        <p><i> </i></p>
+                        <img src={alcohol12} />
+                        <p> </p>
+                    </div>
+                )
+            case 'aldehydes':
+                return(
+                    <div>
+                        <p><b>____</b></p>
+                        <p><i> </i></p>
+                        <img src={aldehyde1} />
+                        <p> </p>
+                        <p><b>____</b></p>
+                        <p><i> </i></p>
+                        <img src={aldehyde2} />
+                        <p> </p>
+                        <p><b>____</b></p>
+                        <p><i> </i></p>
+                        <img src={aldehyde3} />
+                        <p> </p>
+                        <p><b>____</b></p>
+                        <p><i> </i></p>
+                        <img src={aldehyde4} />
+                        <p> </p>
                     </div>
                 )
             case 'alkanes':
@@ -103,7 +176,7 @@ function Reactions() {
                         <p><b>Full Reduction from Alkyne</b></p>
                         <p><i>Requires alkyne</i></p>
                         <img src={alkane1} />
-                        <p>H<sub>2</sub> is added on the same side across the pi bond. The alkyne turns into a cis alkene that reacts again with H<sub>2</sub>, causing a further reduction. However, the reduction can be stopped at the alkene if Lindlar<span>&#39;</span>s catalyst is added.</p>
+                        <p>H₂ is added on the same side across the pi bond. The alkyne turns into a cis alkene that reacts again with H₂, causing a further reduction. However, the reduction can be stopped at the alkene if Lindlar<span>&#39;</span>s catalyst is added.</p>
                         <p><b>Catalytic Hydrogenation</b></p>
                         <p><i>Syn addition of hydrogens</i></p>
                         <img src={alkane2} />
@@ -119,7 +192,7 @@ function Reactions() {
                         <p><b>Cis Alkene </b></p>
                         <p><i>Requires alkyne</i></p>
                         <img src={alkene2} />
-                        <p>H<sub>2</sub> is added on the same side across the pi bond. The alkyne turns into a cis alkene and the addition of Lindlar<span>&#39;</span>s catalyst prevents further reduction into an alkane.</p>
+                        <p>H₂ is added on the same side across the pi bond. The alkyne turns into a cis alkene and the addition of Lindlar<span>&#39;</span>s catalyst prevents further reduction into an alkane.</p>
                         <p><b>Aldol Condensation</b></p>
                         <img src={alkene3} />
                         <p>Adding heat helps to pop off an -OH group.</p>
@@ -134,7 +207,7 @@ function Reactions() {
                     <div>
                         <p><b>Double Elimination</b></p>
                         <img src={alkyne1} />
-                        <p>Br<sub>2</sub> is added across the pi bond, which creates two leaving groups. The strong base in step two will pull off protons and then kick off bromines, creating an alkyne. Two equivalents of a strong base are necessary because there are more than two hydrogens that could be reacted with.</p>
+                        <p>Br₂ is added across the pi bond, which creates two leaving groups. The strong base in step two will pull off protons and then kick off bromines, creating an alkyne. Two equivalents of a strong base are necessary because there are more than two hydrogens that could be reacted with.</p>
                     </div>
                 )
             case 'amidation':
@@ -145,12 +218,63 @@ function Reactions() {
                         <p>Turning a carboxylic acid into an amide by adding heat. </p>
                     </div>
                 )
+            case 'c-c bonds':
+                return(
+                    <div>
+                        <p><b>___</b></p>
+                        <img src={ccbond1} />
+                        <p> </p>
+                        <p><b>___</b></p>
+                        <img src={ccbond2} />
+                        <p> </p>
+                        <p><b>___</b></p>
+                        <img src={ccbond3} />
+                        <p> </p>
+                        <p><b>___</b></p>
+                        <img src={ccbond4} />
+                        <p> </p>
+                        <p><b>___</b></p>
+                        <img src={ccbond5} />
+                        <p> </p>
+                        <p><b>___</b></p>
+                        <img src={ccbond6} />
+                        <p> </p>
+                        <p><b>___</b></p>
+                        <img src={ccbond7} />
+                        <p> </p>
+                    </div>
+                )
+            case 'carboxylic acids':
+                return(
+                    <div>
+                        <p><b>___</b></p>
+                        <img src={carboxy1} />
+                        <p> </p>
+                        <p><b>___</b></p>
+                        <img src={carboxy2} />
+                        <p> </p>
+                    </div>
+                )
             case 'deoxygenation':
                 return(
                     <div>
                         <p><b>Carbonyl Deoxygenation</b></p>
                         <img src={deoxy1} />
-                        <p>To turn a carbonyl into just a C-C bond, either use the Clemmensen Reduction for acidic conditions with Zn<span>&#40;</span>Hg<span>&#41;</span>, HCl, or the Wolff-Kishner Reduction for basic conditions with H<sub>2</sub>N-N<sub>2</sub>H, KOH, and heat.</p>
+                        <p>To turn a carbonyl into just a C-C bond, either use the Clemmensen Reduction for acidic conditions with Zn<span>&#40;</span>Hg<span>&#41;</span>, HCl, or the Wolff-Kishner Reduction for basic conditions with H₂N-N₂H, KOH, and heat.</p>
+                    </div>
+                )
+            case 'epoxides':
+                return(
+                    <div>
+                        <p><b>___</b></p>
+                        <img src={epoxide1} />
+                        <p> </p>
+                        <p><b>___</b></p>
+                        <img src={epoxide2} />
+                        <p> </p>
+                        <p><b>___</b></p>
+                        <img src={epoxide3} />
+                        <p> </p>
                     </div>
                 )
             case 'esters':
@@ -161,12 +285,52 @@ function Reactions() {
                         <p>Note that this reaction can go in reverse, so you can make a carboxylic acid from an ester!</p>
                     </div>
                 )
+            case 'ethers':
+                return(
+                    <div>
+                        <p><b>___</b></p>
+                        <img src={ether1} />
+                        <p> </p>
+                        <p><b>___</b></p>
+                        <img src={ether2} />
+                        <p> </p>
+                        <p><b>___</b></p>
+                        <img src={ether3} />
+                        <p> </p>
+                    </div>
+                )
             case 'imines':
                 return(
                     <div>
                         <p><b>Imines</b></p>
                         <img src={imine1} />
-                        <p>Adding an amine to a ketone in acid will form an imine. Note that the hemiaminal is an intermediary step but will naturally turn to an imine in acidic conditions, which is why we have H<sub>2</sub>SO<sub>4</sub>. </p>
+                        <p>Adding an amine to a ketone in acid will form an imine. Note that the hemiaminal is an intermediary step but will naturally turn to an imine in acidic conditions, which is why we have H₂SO<sub>4</sub>. </p>
+                    </div>
+                )
+            case 'ketones':
+                return(
+                    <div>
+                        <p><b>___</b></p>
+                        <img src={ketone1} />
+                        <p> </p>
+                        <p><b>___</b></p>
+                        <img src={ketone2} />
+                        <p> </p>
+                        <p><b>___</b></p>
+                        <img src={ketone3} />
+                        <p> </p>
+                        <p><b>___</b></p>
+                        <img src={ketone4} />
+                        <p> </p>
+                        <p><b>___</b></p>
+                        <img src={ketone5} />
+                        <p> </p>
+                        <p><b>___</b></p>
+                        <img src={ketone6} />
+                        <p> </p>
+                        <p><b>___</b></p>
+                        <img src={ketone7} />
+                        <p> </p>
                     </div>
                 )
             case 'rings':
@@ -174,11 +338,22 @@ function Reactions() {
                     <div>
                         <p><b>Diels Alder</b></p>
                         <p><i>6-Membered Ring</i></p>
-                        <img src={acetal1} />
+                        <img src={ring1} />
                         <p>A diene reacts with a dienophile and must be reacted in heat. This is a concerted mechanism that happens in one step. </p>
                     </div>
                 )
-            default:
+            // case 'tautomerization':
+            //     return(
+            //         <div>
+            //             <p><b>___</b></p>
+            //             <img src={taut1} />
+            //             <p> </p>
+            //             <p><b>___</b></p>
+            //             <img src={taut2} />
+            //             <p> </p>
+            //         </div>
+            //     )
+            default: // ADD SOMETHING LATER??
             return null
         }
     }
@@ -207,4 +382,4 @@ export default Reactions;
 
 
 
-// <p> This is known as Jone<span>&#39;</span>s Reagent, which includes chromate which is a very good oxidizing agent. Jone<span>&#39;</span>s Reagent can also be seen as H<sub>2</sub>CrO<sub>4</sub> or Na<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>.</p>
+// <p> This is known as Jone<span>&#39;</span>s Reagent, which includes chromate which is a very good oxidizing agent. Jone<span>&#39;</span>s Reagent can also be seen as H₂CrO₄ or Na₂Cr₂O<sub>7</sub>.</p>

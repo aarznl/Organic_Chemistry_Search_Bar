@@ -9,8 +9,8 @@ function Reactions() {
     console.log(location);
 
     const image = () => {
-        switch (location.state) {
-            case 'Alkenes':
+        switch (location.state.toLowerCase()) {
+            case 'alkenes':
                 return(
                     <div>
                         <img src={alkene1} />

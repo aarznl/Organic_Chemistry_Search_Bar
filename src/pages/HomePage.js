@@ -36,6 +36,7 @@ function HomePage() {
                     if (searchTerm != "")
                         setGoToReactions(true) }}>search</button>
             </div>
+            <p><i>A Phamily of Reactions!</i></p>
             {compounds.filter((val) => { 
                 if (searchTerm == "") {
                     return val

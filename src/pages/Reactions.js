@@ -25,7 +25,7 @@ function Reactions() {
                     <div>
                         <p><b>Acetal Formation</b></p>
                         <p><i>Addition of Alcohol to Aldehydes and Ketones</i></p>
-                        <img src={acetal1} />
+                        <img src={acetal1}/>
                         <p>Add an alcohol with acid to a ketone to form the acetal. Note that the hemiacetal is an intermediary step but will naturally turn to an acetal in acidic conditions, which is why we have H₂SO₄.</p>
                     </div>
                 )
@@ -361,7 +361,7 @@ function Reactions() {
 
     return (
         <div>
-            <h1>SIKE! THAT'S A {location.state} !</h1>
+            <h1>{location.state}! My favorite...</h1>
             <div>
                 {image()}
             </div>

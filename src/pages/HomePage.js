@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import { Link, useNavigate} from "react-router-dom";
-import compounds from '../compounds.json'
+import compounds from '../compounds.json';
+import styles from '../my-style.module.css';
 
 
 function HomePage() {
@@ -23,7 +24,7 @@ function HomePage() {
 
     return (
         <div className="App">
-            <h1> Organic Chemistry Synthesizer </h1>
+            <h1 className={styles.mama}> Organic Chemistry Synthesizer </h1>
             <div>
                 <input type="text" placeholder="Search..."
                     onChange={(event) => { // Code for search filter

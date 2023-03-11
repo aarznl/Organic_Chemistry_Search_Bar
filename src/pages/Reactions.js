@@ -12,6 +12,8 @@ import {
     ester1, imine1, ketone1, ketone2, ketone3, ketone4, ketone5, ketone6, ketone7, ring1, 
     taut1, taut2
   } from '../images';
+  import styles from '../my-style.module.css';
+
 
 function Reactions() {
     const [GoToReactions, setGoToReactions] = useState(false);
@@ -23,9 +25,9 @@ function Reactions() {
             case 'acetal':
                 return(
                     <div>
-                        <p><b>Acetal Formation</b></p>
+                        <p className={styles.mama}><b>Acetal Formation</b></p>
                         <p><i>Addition of Alcohol to Aldehydes and Ketones</i></p>
-                        <img src={acetal1} />
+                        <img className={styles.imgsize} src={acetal1} />
                         <p>Add an alcohol with acid to a ketone to form the acetal. Note that the hemiacetal is an intermediary step but will naturally turn to an acetal in acidic conditions, which is why we have H₂SO₄.</p>
                     </div>
                 )

@@ -345,8 +345,8 @@ function Reactions() {
             default: // ADD SOMETHING LATER??
                 return(
                     <div>
-                    <p><b>You did not input a valid molecule!</b></p>
-                    <p><i>Please input one of the listed molecules.</i></p>
+                    <p><b>Sorry, you did not input a valid molecule!</b></p>
+                    <p><i>Please return to the home page and input one of the listed molecules.</i></p>
                     </div>
                 )
             };
@@ -360,7 +360,6 @@ function Reactions() {
 
     return (
         <div>
-            <h1>SIKE! THAT'S A {location.state} !</h1>
             <div>
                 {image()}
             </div>

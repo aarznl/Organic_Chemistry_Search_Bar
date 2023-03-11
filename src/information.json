@@ -1,0 +1,74 @@
+{
+    "acetal1":[
+        {
+            "reaction": "Acetal Formation",
+            "title": "Addition of Alcohol to Aldehydes and Ketones",
+            "description": "Add an alcohol with acid to a ketone to form the acetal. Note that the hemiacetal is an intermediary step but will naturally turn to an acetal in acidic conditions, which is why we have H₂SO₄."
+        }
+    ],
+    "addhalo1":[
+        {
+            "reaction":"Addition of Two Halogens",
+            "title":"Requires alkene",
+            "description":"When a halogen, such as bromine, is in a slightly polar protic solvent it first reacts to form an epoxide. The pi electrons from the alkene grab the bromine, creating a bromine ion as a byproduct. This ion acts as a nucleophile, attacking the ring to release the steric hindrance. While there is no regioselectivity because both groups being added are the same, it is a nucleophilic backside attack on a tetrahedral carbon. This inverts the stereochemistry resulting in an anti addition."
+        }
+    ],
+    "addhalo2":[
+        {
+            "reaction":"Addition of Halohydrin",
+            "title":"Requires alkene in protonating conditions",
+            "description":"The pi electrons from the alkene grab the bromine. Water then acts as the nucleophile, attacking the epoxide ring to relieve the steric hindrance. The nucleophile back attacks the more substituted carbon. This results in an inversion of stereochem and an anti addition of the alcohol and halide groups."
+        }
+    ],
+    "addhalo3":[
+        {
+            "reaction":"Dihalide addition",
+            "title":"",
+            "description":"The pi bond attacks the proton in H-Br, which gets added in a Markovnikov fashion. Then Br – attacks the carbon cation, which leads to the formation of the alkene. This happens again with the alkene, causing H-Br to be added twice in a Markovnikov fashion. There are no more chiral centers at the end due to bromine and hydrogen being added twice to the same side."
+        }
+    ],
+    "addhalo4":[
+        {
+            "reaction":"Addition of hydrogen halide",
+            "title":"",
+            "description":"When in the presence of a strong acid, think protonation. The pi electrons from the alkene attack the electrophilic HBr, creating a carbocation intermediate. Because the more stable carbocation is favored, this reaction follows Markovnikov’s rule. Additionally, because the carbon is planar, the Bromine ion can attack from either the front or back creating a mixture of stereochem."
+        }
+    ],
+    "addhalo5":[
+        {
+            "reaction":"Using Inorganic Acids",
+            "title":"",
+            "description":"Because this mechanism is Sn1 or Sn2, using inorganic acids is preferential to primary or secondary alcohols. Potential reagents include PBr₃, PI₃, PCl₃, and SOCl₂."
+        }
+    ],
+    "addhalo89":[
+        {
+            "reaction":"Alcohol Reactions",
+            "title":"Using Organic Compounds and Acids",
+            "description":"Starting with alcohol in an acidic environment, protonation of the OH group occurs, turning it into a good leaving group. A Sn1 mechanism follows."
+        }
+    ],
+    "addhalo6":[
+        {
+            "reaction":"Alpha-Halogenation",
+            "title":"Enols and Enolates",
+            "description":"Use acetic acid and Br2 to form a Br at the alpha position to the carbonyl. Note that we are using an acid here instead of a strong base because the product is more acidic than the reactant (Br is an electron-withdrawing group, which means when there is a negative charge Br will inductively help to hold the negative charge if there is deprotonation). That is why you have the reaction in acid, which means the reactant will now act as a base. "
+        }
+    ],
+    "addhalo7":[
+        {
+            "reaction":"EAS Halogenation",
+            "title":"Adding to a Benzene Ring",
+            "description":"One Br2 with a catalyst like AlX3 or FeX3. Reminder that Br2 itself is not strong enough to disrupt an aromatic ring. You need a catalyst! "
+        }
+    ],
+    "addhalo10":[
+        {
+            "reaction":"Making Acyl Chloride",
+            "title":"Alcohol to Cl",
+            "description":"Add SOCl2 to a carboxylic acid to replace an alcohol with Cl. "
+        }
+    ]
+
+
+}

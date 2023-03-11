@@ -12,63 +12,52 @@ import {
     ester1, imine1, ketone1, ketone2, ketone3, ketone4, ketone5, ketone6, ketone7, ring1, 
     taut1, taut2
   } from '../images';
-  import styles from '../my-style.module.css';
-
+import styles from '../my-style.module.css';
+import info from '../information.json'
 
 function Reactions() {
     const [GoToReactions, setGoToReactions] = useState(false);
     const location = useLocation();
     console.log(location);
 
+    function format(compound, title, pic1, pic2, descrip){
+        return(
+        <div>
+            <p><b>{compound}</b></p>
+            <p><i>{title}</i></p>
+            <img src = {pic1}/>
+            <img src = {pic2}/>
+            <p>{descrip}</p>
+        </div>)
+    }
+
     const image = () => {
         switch (location.state.toLowerCase()) {
             case 'acetal':
                 return(
-                    <div>
-                        <p><b>Acetal Formation</b></p>
-                        <p><i>Addition of Alcohol to Aldehydes and Ketones</i></p>
-                        <img src={acetal1}/>
-                        <p>Add an alcohol with acid to a ketone to form the acetal. Note that the hemiacetal is an intermediary step but will naturally turn to an acetal in acidic conditions, which is why we have H₂SO₄.</p>
-                    </div>
-                )
+                    format(info.acetal1[0].reaction, info.acetal1[0].title, acetal1, null, info.acetal1[0].description)   
+                )     
             case 'addition of halogen':
                 return(
                     <div>
-                        <p><b>Addition of Two Halogens</b></p>
-                        <p><i>Requires alkene</i></p>
-                        <img src={addhalo1} />
-                        <p>When a halogen, such as bromine, is in a slightly polar protic solvent it first reacts to form an epoxide. The pi electrons from the alkene grab the bromine, creating a bromine ion as a byproduct. This ion acts as a nucleophile, attacking the ring to release the steric hindrance. While there is no regioselectivity because both groups being added are the same, it is a nucleophilic backside attack on a tetrahedral carbon. This inverts the stereochemistry resulting in an anti addition.</p>
-                        <p><b>Addition of Halohydrin</b></p>
-                        <p><i>Requires alkene in protonating conditions</i></p>
-                        <img src={addhalo2} />
-                        <p>The pi electrons from the alkene grab the bromine. Water then acts as the nucleophile, attacking the epoxide ring to relieve the steric hindrance. The nucleophile back attacks the more substituted carbon. This results in an inversion of stereochem and an anti addition of the alcohol and halide groups.</p>
-                        <p><b>Dihalide Addition</b></p>
-                        <img src={addhalo3} />
-                        <p>The pi bond attacks the proton in H-Br, which gets added in a Markovnikov fashion. Then Br<sup>-</sup> attacks the carbon cation, which leads to the formation of the alkene. This happens again with the alkene, causing H-Br to be added twice in a Markovnikov fashion. There are no more chiral centers at the end due to bromine and hydrogen being added twice to the same side.</p>
-                        <p><b>Hydrogen Halide Addition</b></p>
-                        <img src={addhalo4} />
-                        <p>When in the presence of a strong acid, think protonation. The pi electrons from the alkene attack the electrophilic HBr, creating a carbocation intermediate. Because the more stable carbocation is favored, this reaction follows Markovnikov<span>&#39;</span>s rule. Additionally, because the carbon is planar, the Bromine ion can attack from either the front or back creating a mixture of stereochem.</p>
-                        <p><b>Alcohol Reactions</b></p>
-                        <p><i>Using Inorganic Acids</i></p>
-                        <img src={addhalo5} />
-                        <p>Because this mechanism is Sn1 or Sn2, using inorganic acids is preferential to primary or secondary alcohols. Potential reagents include PBr₃, PI₃, PCl₃, and SOCl₂.</p>
-                        <p><b>Alcohol Reactions</b></p>
-                        <p><i>Using Organic Compounds and Acids</i></p>
-                        <img src={addhalo8} />
-                        <img src={addhalo9} />
-                        <p>Starting with alcohol in an acidic environment, protonation of the OH group occurs, turning it into a good leaving group. A Sn1 mechanism follows.</p>
-                        <p><b>Alpha-Halogenation</b></p>
-                        <p><i>Enols and Enolates</i></p>
-                        <img src={addhalo6} />
-                        <p>Use acetic acid and Br₂ to form a Br at the alpha position to the carbonyl. Note that we are using an acid here instead of a strong base because the product is more acidic than the reactant <span>&#40;</span>Br is an electron-withdrawing group, which means when there is a negative charge Br will inductively help to hold the negative charge if there is deprotonation<span>&#41;</span>. That is why you have the reaction in acid, which means the reactant will now act as a base. </p>
-                        <p><b>EAS Halogenation</b></p>
-                        <p><i>Adding to a Benzene Ring</i></p>
-                        <img src={addhalo7} />
-                        <p>One Br₂ with a catalyst like AlX₃ or FeX₃. Reminder that Br₂ itself is not strong enough to disrupt an aromatic ring. You need a catalyst! </p>
-                        <p><b>Making Acyl Chloride</b></p>
-                        <p><i>Alcohol to Cl</i></p>
-                        <img src={addhalo10} />
-                        <p>Add SOCl₂ to a carboxylic acid to replace an alcohol with Cl.</p>
+                        <div>{format(info.addhalo1[0].reaction, info.addhalo1[0].title, addhalo1, null, info.addhalo1[0].description)}
+                        </div>
+                        <div>{format(info.addhalo2[0].reaction, info.addhalo2[0].title, addhalo2, null, info.addhalo2[0].description)}
+                        </div>
+                        <div>{format(info.addhalo3[0].reaction, info.addhalo3[0].title, addhalo3, null, info.addhalo3[0].description)}
+                        </div>
+                        <div>{format(info.addhalo4[0].reaction, info.addhalo4[0].title, addhalo4, null, info.addhalo4[0].description)}
+                        </div>
+                        <div>{format(info.addhalo5[0].reaction, info.addhalo5[0].title, addhalo5, null, info.addhalo5[0].description)}
+                        </div>
+                        <div>{format(info.addhalo89[0].reaction, info.addhalo89[0].title, addhalo8, addhalo9, info.addhalo89[0].description)}
+                        </div>
+                        <div>{format(info.addhalo6[0].reaction, info.addhalo6[0].title, addhalo6, null, info.addhalo6[0].description)}
+                        </div>
+                        <div>{format(info.addhalo7[0].reaction, info.addhalo7[0].title, addhalo7, null, info.addhalo7[0].description)}
+                        </div>
+                        <div>{format(info.addhalo10[0].reaction, info.addhalo10[0].title, addhalo10, null, info.addhalo10[0].description)}
+                        </div>
                     </div>
                 )
             case 'addition to benzene ring':

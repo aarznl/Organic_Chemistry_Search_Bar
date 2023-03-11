@@ -12,6 +12,8 @@ import {
     ester1, imine1, ketone1, ketone2, ketone3, ketone4, ketone5, ketone6, ketone7, ring1, 
     taut1, taut2
   } from '../images';
+  import styles from '../my-style.module.css';
+
 
 function Reactions() {
     const [GoToReactions, setGoToReactions] = useState(false);
@@ -345,19 +347,18 @@ function Reactions() {
             default: // ADD SOMETHING LATER??
                 return(
                     <div>
-                        <p>Sorry, this type of molecule or reaction does not exist. Please select another option from the home page.</p>
+                    <p><b>Sorry, you did not input a valid molecule!</b></p>
+                    <p><i>Please return to the home page and input one of the listed molecules.</i></p>
                     </div>
                 )
-            return null
-        }
-    }
+            };
+    };
     
 
 
     if (GoToReactions) {
         return <Navigate to="/" />
     }
-
 
     return (
         <div>

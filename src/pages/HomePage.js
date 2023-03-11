@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import { Link, useNavigate} from "react-router-dom";
-import compounds from '../compounds.json'
+import compounds from '../compounds.json';
+import styles from '../my-style.module.css';
 
 
 function HomePage() {

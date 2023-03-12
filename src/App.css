@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+:root {
+  --background: #edf6f9;
+}
+
+* {
+  background-color: var(--background);
+  font-family: Golos Text;
+}
+
 .App{
   display:flex;
   justify-content: center;
@@ -17,4 +28,9 @@
 p {
   margin: 10px;
   font-size: 18px;
+}
+
+img {
+  border-radius: 30px;
+  max-width: 1000px;
 }

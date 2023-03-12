@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import { Link, useNavigate} from "react-router-dom";
-import compounds from '../compounds.json'
+import compounds from '../compounds.json';
+import styles from '../my-style.module.css';
 
 
 function HomePage() {
@@ -35,6 +36,7 @@ function HomePage() {
                     if (searchTerm != "")
                         setGoToReactions(true) }}>search</button>
             </div>
+            <p><i>A Phamily of Reactions!</i></p>
             {compounds.filter((val) => { 
                 if (searchTerm == "") {
                     return val

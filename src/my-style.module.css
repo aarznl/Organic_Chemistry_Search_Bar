@@ -1,0 +1,23 @@
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+.imgsize {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    object-fit: contain;
+}
+
+.textsize{
+  font-size: 15px;
+  color: #403e3ed9;
+}
+
+
+* {box-sizing: border-box}

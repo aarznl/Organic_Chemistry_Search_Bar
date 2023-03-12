@@ -55,7 +55,7 @@ function Reactions() {
     const TabScreen = ({ activeTab, idx, content, ...props}) => {
         return (
           <div
-            className="animate__animated animate__fadeInLeft"
+            className="animate__animated animate__fadeIn"
             role="tabpanel"
             {...props}
           >

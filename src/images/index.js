@@ -19,7 +19,6 @@ export const alcohol1 = require('./alcohol1.png');
 export const alcohol2 = require('./alcohol2.png');
 export const alcohol3 = require('./alcohol3.png');
 export const alcohol4 = require('./alcohol4.png');
-export const alcohol5 = require('./alcohol5.png');
 export const alcohol6 = require('./alcohol6.png');
 export const alcohol7 = require('./alcohol7.png');
 export const alcohol8 = require('./alcohol8.png');

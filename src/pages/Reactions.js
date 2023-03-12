@@ -536,6 +536,7 @@ function Reactions() {
             <button style={{ marginLeft: 6 }} onClick={() => { setGoToReactions(true) }}>return</button>
         </div>
     )
+    
 }
 
 export default Reactions;

@@ -440,13 +440,14 @@ function Reactions() {
 
     return (
         <div>
-            <h1>SIKE! THAT'S A {location.state} !</h1>
+            <h1>{location.state}! My favorite...</h1>
             <div>
                 {image()}
             </div>
             <button style={{ marginLeft: 6 }} onClick={() => { setGoToReactions(true) }}>return</button>
         </div>
     )
+    
 }
 
 export default Reactions;

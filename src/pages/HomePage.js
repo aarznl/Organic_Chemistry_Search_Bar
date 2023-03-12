@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import { Link, useNavigate} from "react-router-dom";
 import compounds from '../compounds.json';
-import styles from '../my-style.module.css';
 
 
 function HomePage() {
@@ -33,21 +32,22 @@ function HomePage() {
                     onKeyDown={handleKeyDown}
                 />
                 <button style={{ marginLeft: 6 }} onClick={() => { 
-                    if (searchTerm != "")
+                    if (searchTerm !== "")
                         setGoToReactions(true) }}>search</button>
             </div>
             <p><i>A Phamily of Reactions!</i></p>
             {compounds.filter((val) => { 
-                if (searchTerm == "") {
+                if (searchTerm === "") {
                     return val
                 }
                 else if (val.Molecule.toLowerCase().includes(searchTerm.toLowerCase())) {
                     return val //only return val in the search if searchTerm is "" or if the specific value is included in the searchTerm
                 }
+                return null;
             }).map((val, key) => {
                 return (
                     <div className="user" key={key}>
-                        <Link to="/reactions" state={val.Molecule}>{val.Molecule}</Link>
+                        <Link to="/reactions" state={val.Molecule} >{val.Molecule}</Link>
                     </div>);
             })}
         </div>

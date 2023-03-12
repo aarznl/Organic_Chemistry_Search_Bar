@@ -11,8 +11,7 @@ import {
     aldehyde5, alkane1, alkane2, alkene1, alkene2, alkene3, alkene4, alkyne1, amide1, 
     amide2, amide3, carboxy1, carboxy2, carboxy3, carboxy4, carboxy5, carboxy6, ccbond1, ccbond2, ccbond3, ccbond4, ccbond5, ccbond6, 
     ccbond7, ccbond8, deoxy1, deoxy2, deoxy3, deoxy4, epoxide1, epoxide2, epoxide3, ether1, ether2, ether3, 
-    ester1, ester2, ester3, imine1, ketone1, ketone2, ketone3, ketone4, ketone5, ketone6, ketone7, ring1, 
-    taut1, taut2
+    ester1, ester2, ester3, imine1, ketone1, ketone2, ketone3, ketone4, ketone5, ketone6, ketone7, ring1
   } from '../images';
 import styles from '../my-style.module.css';
 import info from '../information.json';
@@ -69,17 +68,18 @@ function Reactions() {
         <div>
             <p><b>{compound}</b></p>
             <p><i>{title}</i></p>
-            <img className={styles.imgsize} src = {pic1}/>
-            <img className={styles.imgsize} src = {pic2}/>
+            <img className={styles.imgsize} src = {pic1} alt=""/>
+            <img className={styles.imgsize} src = {pic2} alt=""/>
             <p>{descrip}</p>
         </div>)
     }
-    const number = 0;
     const image = () => {
         switch (location.state.toLowerCase()) {
             case 'acetal':
                 return(
                     <div>
+                        <h1>{location.state}!</h1>
+                        <p>My favorite...</p>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -87,6 +87,7 @@ function Reactions() {
                         rightBtnIcon={<FiChevronRight size={"1.5em"} />}>                         
                         <Tab> {info.acetal1[0].reaction} </Tab>
                         </Tabs>
+                        <p className={styles.textsize} padding-bottom={1000}>Click the tabs above to see the reactions!</p>
                         <TabScreen activeTab={activeTab} idx={0} key={0} 
                         content={format(info.acetal1[0].reaction, info.acetal1[0].title, pics.acetal[0], null, info.acetal1[0].description)}>
                         </TabScreen>
@@ -95,6 +96,13 @@ function Reactions() {
             case 'addition of halogen':
                 return(
                     <div>
+                        <h1>{location.state}!</h1>
+                        <div>
+                            <p className={styles.samel}>
+                                <span>What did the chemist say when he caught his brother stealing halogens? </span>
+                                <span className={styles.joke}> Bro, mine</span>
+                            </p>
+                        </div>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -102,8 +110,9 @@ function Reactions() {
                         rightBtnIcon={<FiChevronRight size={"1.5em"} />}>                         
                         {[...Array(9).keys()].map((item) => (
                             <Tab key={item}>{info.addhalo[item].reaction}</Tab>
-                        ))}                        
+                        ))}
                         </Tabs>
+                        <p className={styles.textsize} padding-bottom={1000}>Click the tabs above to see the reactions!</p>
                         {[...Array(8).keys()].map((item) => (
                         <TabScreen activeTab={activeTab} idx={item} key={item} 
                         content={format(info.addhalo[item].reaction, info.addhalo[item].title, pics.addhalo[item], null, info.addhalo[item].description)}>
@@ -117,6 +126,13 @@ function Reactions() {
             case 'addition to benzene ring':
                 return(
                     <div>
+                        <h1>{location.state}!</h1>
+                        <div>
+                            <p className={styles.samel}>
+                                <span>What do chemists call a benzene ring with iron atoms replacing the carbon atoms? </span>
+                                <span className={styles.joke}> A ferrous wheel</span>
+                            </p>
+                        </div>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -126,6 +142,7 @@ function Reactions() {
                             <Tab key={item}>{info.addbenring[item].reaction}</Tab>
                         ))}                        
                         </Tabs>
+                        <p className={styles.textsize} padding-bottom={1000}>Click the tabs above to see the reactions!</p>
                         {[...Array(6).keys()].map((item) => (
                         <TabScreen activeTab={activeTab} idx={item} key={item} 
                         content={format(info.addbenring[item].reaction, info.addbenring[item].title, pics.addbenring[item], null, info.addbenring[item].description)}>
@@ -136,6 +153,8 @@ function Reactions() {
             case 'alcohols':
                 return(
                     <div>
+                        <h1>{location.state}!</h1>
+                        <p>Chemists and alcoholics have one thing in common, and that is they both view alcohol as part of the solution.</p>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -145,6 +164,7 @@ function Reactions() {
                             <Tab key={item}>{info.alcohol[item].reaction}</Tab>
                         ))}                        
                         </Tabs>
+                        <p className={styles.textsize} padding-bottom={1000}>Click the tabs above to see the reactions!</p>
                         {[...Array(13).keys()].map((item) => (
                         <TabScreen activeTab={activeTab} idx={item} key={item} 
                         content={format(info.alcohol[item].reaction, info.alcohol[item].title, pics.alcohol[item], null, info.alcohol[item].description)}>
@@ -155,6 +175,13 @@ function Reactions() {
             case 'aldehydes':
                 return(
                     <div>
+                        <h1>{location.state}!</h1>
+                        <div>
+                            <p className={styles.samel}>
+                                <span>What's the fanciest aldehyde? </span>
+                                <span className={styles.joke}> Formaldehyde</span>
+                            </p>
+                        </div>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -164,6 +191,7 @@ function Reactions() {
                             <Tab key={item}>{info.aldehyde[item].reaction}</Tab>
                         ))}                        
                         </Tabs>
+                        <p className={styles.textsize} padding-bottom={1000}>Click the tabs above to see the reactions!</p>
                         {[...Array(3).keys()].map((item) => (
                         <TabScreen activeTab={activeTab} idx={item} key={item} 
                         content={format(info.aldehyde[item].reaction, info.aldehyde[item].title, pics.aldehyde[item], null, info.aldehyde[item].description)}>
@@ -177,6 +205,13 @@ function Reactions() {
             case 'alkanes':
                 return(
                     <div>
+                        <h1>{location.state}!</h1>
+                        <div>
+                            <p className={styles.samel}>
+                                <span>Why do chemists hate reacting the 1 mol concentration of a carboxyl acid and 1 mil concentration alkane? </span>
+                                <span className={styles.joke}> They make 1 mol-ester</span>
+                            </p>
+                        </div>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -186,6 +221,7 @@ function Reactions() {
                             <Tab key={item}>{info.alkane[item].reaction}</Tab>
                         ))}                        
                         </Tabs>
+                        <p className={styles.textsize} padding-bottom={1000}>Click the tabs above to see the reactions!</p>
                         {[...Array(2).keys()].map((item) => (
                         <TabScreen activeTab={activeTab} idx={item} key={item} 
                         content={format(info.alkane[item].reaction, info.alkane[item].title, pics.alkane[item], null, info.alkane[item].description)}>
@@ -196,6 +232,13 @@ function Reactions() {
             case 'alkenes':
                 return(
                     <div>
+                        <h1>{location.state}!</h1>
+                        <div>
+                            <p className={styles.samel}>
+                                <span>What did the alkene say to the alkane? </span>
+                                <span className={styles.joke}> The name's Bond. Double bond.</span>
+                            </p>
+                        </div>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -205,6 +248,7 @@ function Reactions() {
                             <Tab key={item}>{info.alkene[item].reaction}</Tab>
                         ))}                        
                         </Tabs>
+                        <p className={styles.textsize} padding-bottom={1000}>Click the tabs above to see the reactions!</p>
                         {[...Array(4).keys()].map((item) => (
                         <TabScreen activeTab={activeTab} idx={item} key={item} 
                         content={format(info.alkene[item].reaction, info.alkene[item].title, pics.alkene[item], null, info.alkene[item].description)}>
@@ -215,6 +259,8 @@ function Reactions() {
             case 'alkynes':
                 return(
                     <div>
+                        <h1>{location.state}!</h1>
+                        <p>Organic chemistry is difficult. Those who study it have alkynes of trouble.</p>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -224,6 +270,7 @@ function Reactions() {
                             <Tab key={item}>{info.alkyne[item].reaction}</Tab>
                         ))}                        
                         </Tabs>
+                        <p className={styles.textsize} padding-bottom={1000}>Click the tabs above to see the reactions!</p>
                         {[...Array(1).keys()].map((item) => (
                         <TabScreen activeTab={activeTab} idx={item} key={item} 
                         content={format(info.alkyne[item].reaction, info.alkyne[item].title, pics.alkyne[item], null, info.alkyne[item].description)}>
@@ -234,6 +281,8 @@ function Reactions() {
             case 'amides':
                 return(
                     <div>
+                        <h1>{location.state}!</h1>
+                        <p>{"These jokes are pretty (a)mide"}</p>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -243,6 +292,7 @@ function Reactions() {
                             <Tab key={item}>{info.amide[item].reaction}</Tab>
                         ))}                        
                         </Tabs>
+                        <p className={styles.textsize} padding-bottom={1000}>Click the tabs above to see the reactions!</p>
                         {[...Array(3).keys()].map((item) => (
                         <TabScreen activeTab={activeTab} idx={item} key={item} 
                         content={format(info.amide[item].reaction, info.amide[item].title, pics.amide[item], null, info.amide[item].description)}>
@@ -253,6 +303,8 @@ function Reactions() {
             case 'c-c bonds':
                 return(
                     <div>
+                        <h1>{location.state}!</h1>
+                        <p>I wish my life was as stable as a c-c bond</p>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -262,6 +314,7 @@ function Reactions() {
                             <Tab key={item}>{info.ccbond[item].reaction}</Tab>
                         ))}                        
                         </Tabs>
+                        <p className={styles.textsize} padding-bottom={1000}>Click the tabs above to see the reactions!</p>
                         {[...Array(8).keys()].map((item) => (
                         <TabScreen activeTab={activeTab} idx={item} key={item} 
                         content={format(info.ccbond[item].reaction, info.ccbond[item].title, pics.ccbond[item], null, info.ccbond[item].description)}>
@@ -272,6 +325,8 @@ function Reactions() {
             case 'carboxylic acids':
                 return(
                     <div>
+                        <h1>{location.state}!</h1>
+                        <p></p>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -281,6 +336,7 @@ function Reactions() {
                             <Tab key={item}>{info.carboxy[item].reaction}</Tab>
                         ))}                        
                         </Tabs>
+                        <p className={styles.textsize} padding-bottom={1000}>Click the tabs above to see the reactions!</p>
                         {[...Array(6).keys()].map((item) => (
                         <TabScreen activeTab={activeTab} idx={item} key={item} 
                         content={format(info.carboxy[item].reaction, info.carboxy[item].title, pics.carboxy[item], null, info.carboxy[item].description)}>
@@ -291,6 +347,13 @@ function Reactions() {
             case 'deoxygenation':
                 return(
                     <div>
+                        <h1>{location.state}!</h1>
+                        <div>
+                            <p className={styles.samel}>
+                                <span>What do you call a chemistry student who is too stupid to learn about Oxygen? </span>
+                                <span className={styles.joke}> An oxymoron </span>
+                            </p>
+                        </div>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -300,6 +363,7 @@ function Reactions() {
                             <Tab key={item}>{info.deoxy[item].reaction}</Tab>
                         ))}                        
                         </Tabs>
+                        <p className={styles.textsize} padding-bottom={1000}>Click the tabs above to see the reactions!</p>
                         {[...Array(4).keys()].map((item) => (
                         <TabScreen activeTab={activeTab} idx={item} key={item} 
                         content={format(info.deoxy[item].reaction, info.deoxy[item].title, pics.deoxy[item], null, info.deoxy[item].description)}>
@@ -310,6 +374,7 @@ function Reactions() {
             case 'epoxides':
                 return(
                     <div>
+                        <h1>{location.state}!</h1>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -319,6 +384,7 @@ function Reactions() {
                             <Tab key={item}>{info.epoxide[item].reaction}</Tab>
                         ))}                        
                         </Tabs>
+                        <p className={styles.textsize} padding-bottom={1000}>Click the tabs above to see the reactions!</p>
                         {[...Array(2).keys()].map((item) => (
                         <TabScreen activeTab={activeTab} idx={item} key={item} 
                         content={format(info.epoxide[item].reaction, info.epoxide[item].title, pics.epoxide[item], null, info.epoxide[item].description)}>
@@ -329,6 +395,13 @@ function Reactions() {
             case 'esters':
                 return(
                     <div>
+                        <h1>{location.state}!</h1>
+                        <div>
+                            <p className={styles.samel}>
+                                <span>Why did the jury decide Ester was not guilty? </span>
+                                <span className={styles.joke}> Because Ester was in a scent. </span>
+                            </p>
+                        </div>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -338,6 +411,7 @@ function Reactions() {
                             <Tab key={item}>{info.ester[item].reaction}</Tab>
                         ))}                        
                         </Tabs>
+                        <p className={styles.textsize} padding-bottom={1000}>Click the tabs above to see the reactions!</p>
                         {[...Array(3).keys()].map((item) => (
                         <TabScreen activeTab={activeTab} idx={item} key={item} 
                         content={format(info.ester[item].reaction, info.ester[item].title, pics.ester[item], null, info.ester[item].description)}>
@@ -348,6 +422,14 @@ function Reactions() {
             case 'ethers':
                 return(
                     <div>
+                        <h1>{location.state}! My favorite...</h1>
+                        <div>
+                            <p className={styles.samel}>
+                                <span>You </span>
+                                <span className={styles.joke}> ether </span>
+                                <span>get organic chemsitry or you don't.</span>
+                            </p>
+                        </div>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -357,6 +439,7 @@ function Reactions() {
                             <Tab key={item}>{info.ether[item].reaction}</Tab>
                         ))}                        
                         </Tabs>
+                        <p className={styles.textsize} padding-bottom={1000}>Click the tabs above to see the reactions!</p>
                         {[...Array(3).keys()].map((item) => (
                         <TabScreen activeTab={activeTab} idx={item} key={item} 
                         content={format(info.ether[item].reaction, info.ether[item].title, pics.ether[item], null, info.ether[item].description)}>
@@ -367,6 +450,7 @@ function Reactions() {
             case 'imines':
                 return(
                     <div>
+                        <h1>{location.state}!</h1>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -376,6 +460,7 @@ function Reactions() {
                             <Tab key={item}>{info.imine[item].reaction}</Tab>
                         ))}                        
                         </Tabs>
+                        <p className={styles.textsize} padding-bottom={1000}>Click the tabs above to see the reactions!</p>
                         {[...Array(1).keys()].map((item) => (
                         <TabScreen activeTab={activeTab} idx={item} key={item} 
                         content={format(info.imine[item].reaction, info.imine[item].title, pics.imine[item], null, info.imine[item].description)}>
@@ -386,6 +471,7 @@ function Reactions() {
             case 'ketones':
                 return(
                     <div>
+                        <h1>{location.state}!</h1>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -395,6 +481,7 @@ function Reactions() {
                             <Tab key={item}>{info.ketone[item].reaction}</Tab>
                         ))}                        
                         </Tabs>
+                        <p className={styles.textsize} padding-bottom={1000}>Click the tabs above to see the reactions!</p>
                         {[...Array(5).keys()].map((item) => (
                         <TabScreen activeTab={activeTab} idx={item} key={item} 
                         content={format(info.ketone[item].reaction, info.ketone[item].title, pics.ketone[item], null, info.ketone[item].description)}>
@@ -408,6 +495,8 @@ function Reactions() {
             case 'rings':
                 return(
                     <div>
+                        <h1>{location.state}!</h1>
+                        <p>All the single ladies, all the single ladies</p>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -417,6 +506,7 @@ function Reactions() {
                             <Tab key={item}>{info.ring[item].reaction}</Tab>
                         ))}                        
                         </Tabs>
+                        <p className={styles.textsize} padding-bottom={1000}>Click the tabs above to see the reactions!</p>
                         {[...Array(1).keys()].map((item) => (
                         <TabScreen activeTab={activeTab} idx={item} key={item} 
                         content={format(info.ring[item].reaction, info.ring[item].title, pics.ring[item], null, info.ring[item].description)}>
@@ -440,8 +530,6 @@ function Reactions() {
 
     return (
         <div>
-            <h1>{location.state}! My favorite...</h1>
-            <p className={styles.textsize}>Click the tabs below to see the reactions!</p>
             <div>
                 {image()}
             </div>

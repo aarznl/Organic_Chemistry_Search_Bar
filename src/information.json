@@ -19,7 +19,7 @@
         {
             "reaction":"Dihalide Addition",
             "title":"",
-            "description":"The pi bond attacks the proton in H-Br, which gets added in a Markovnikov fashion. Then Br- attacks the carbon cation, which leads to the formation of the alkene. This happens again with the alkene, causing H-Br to be added twice in a Markovnikov fashion. There are no more chiral centers at the end due to bromine and hydrogen being added twice to the same side."
+            "description":"The pi bond attacks the proton in HBr, which gets added in a Markovnikov fashion. Then Br ⁻ attacks the carbon cation, which leads to the formation of the alkene. This happens again with the alkene, causing HBr to be added twice in a Markovnikov fashion. There are no more chiral centers at the end due to bromine and hydrogen being added twice to the same side."
         },
         {
             "reaction":"Addition of Hydrogen halide",
@@ -29,7 +29,7 @@
         {
             "reaction":"Using Inorganic Acids",
             "title":"",
-            "description":"Because this mechanism is Sn1 or Sn2, using inorganic acids is preferential to primary or secondary alcohols. Potential reagents include PBr₃, PI₃, PCl₃, and SOCl₂."
+            "description":"Because this mechanism is Sₙ1 or Sₙ2, using inorganic acids is preferential to primary or secondary alcohols. Potential reagents include PBr₃, PI₃, PCl₃, and SOCl₂."
         },
         {
             "reaction":"Alpha-Halogenation",
@@ -49,7 +49,7 @@
         {
             "reaction":"Alcohol Reactions",
             "title":"Using Organic Compounds and Acids",
-            "description":"Starting with alcohol in an acidic environment, protonation of the OH group occurs, turning it into a good leaving group. A Sn1 mechanism follows."
+            "description":"Starting with alcohol in an acidic environment, protonation of the OH group occurs, turning it into a good leaving group. A Sₙ1 mechanism follows."
         }
     ], "addbenring":[
         {
@@ -65,7 +65,7 @@
         {
             "reaction":"Making Carboxylic Acids",
             "title":"Organometallic Reagents",
-            "description":"Remember to number your steps for this one! Also, H₃O+ is used because once you add CO₂, you actually form a pretty stable base that isn’t that reactive. "
+            "description":"Remember to number your steps for this one! Also, H₃O⁺ is used because once you add CO₂, you actually form a pretty stable base that isn’t that reactive. "
         },
         {
             "reaction":"Making an Alkene on a Ring",
@@ -75,7 +75,7 @@
         {
             "reaction":"EAS Halogenation",
             "title":"",
-            "description":"One Br2 with a catalyst like AlX₃ or FeX₃. Reminder that Br₂ itself is not strong enough to disrupt an aromatic ring. You need a catalyst! "
+            "description":"One Br₂ with a catalyst like AlX₃ or FeX₃. Reminder that Br₂ itself is not strong enough to disrupt an aromatic ring. You need a catalyst! "
         },
         {
             "reaction":"EAS Friedel-Crafts Alkylation",
@@ -91,22 +91,22 @@
         {
             "reaction":"Anti-Diols",
             "title":"Dihydroxylation",
-            "description":"mCPBA is used to form an epoxide through the use of an alkene. The ring is then opened by OH-, which adds itself to the opposite face. Then workup takes place to protonate the O-, to become OH, creating an anti-addition of two OH groups. "
+            "description":"mCPBA is used to form an epoxide through the use of an alkene. The ring is then opened by OH ⁻, which adds itself to the opposite face. Then workup takes place to protonate the O ⁻, to become OH, creating an anti-addition of two OH groups. "
         },
         {
             "reaction":"Syn-Diols",
             "title":"Dihydroxylation",
-            "description":"The alkene is used to react with OsO₄ as step 1, and then H₂S is added to to create two alcohols on the same face. It is a syn diol because the oxygens are being added at the same time from the same molecule. "
+            "description":"The alkene is used to react with OsO₄ as step 1, and then H₂S is added to to create two alcohols on the same face. It is a syn-diol because the oxygens are being added at the same time from the same molecule. "
         },
         {
             "reaction":"Alkene Hydration",
             "title":"Adding Hydrogen and Alcohol on Neighboring Carbons",
-            "description":"The pi electrons from the alkene attack a hydrogen on H+, which kicks electrons from the H-O bond onto the oxygen, creating H2O. The hydrogen is added in a Markovnikov manner, which creates a positive charge on the most substituted carbon. H₂O acts as a nucleophile and attacks the positively charged carbon and attaches itself. Then another molecule of water deprotonates to create an OH group. Follows Markovnikov’s rule and is a mixed addition."
+            "description":"The pi electrons from the alkene attack a hydrogen on H⁺, which kicks electrons from the H-O bond onto the oxygen, creating H2O. The hydrogen is added in a Markovnikov manner, which creates a positive charge on the most substituted carbon. H₂O acts as a nucleophile and attacks the positively charged carbon and attaches itself. Then another molecule of water deprotonates to create an OH group. Follows Markovnikov’s rule and is a mixed addition. Remember that this isn't a favorable way of adding an alcohol due to the possibilities of side reactions!"
         },
         {
             "reaction":"Oxymercuration / Reduction",
             "title":"Markovnikov Addition",
-            "description":"Pi electrons from the alkene attack the mercury acetate, which then forms a three membered ring. The ring is formed because mercury leans over and shares its electrons with the positively charged carbon that is created. With a positively charged mercurinium ion, H₂O acts as a nucleophile and attacks the most substituted carbon. The ring opens and then HgOAc gets reduced to a hydrogen. This is a Markovnikov and a mix addition."
+            "description":"Pi electrons from the alkene attack the mercury acetate, which then forms a three membered ring. The ring is formed because mercury leans over and shares its electrons with the positively charged carbon that is created. With a positively charged mercurinium ion, H₂O acts as a nucleophile and attacks the most substituted carbon. The ring opens and then HgOAc gets reduced to a hydrogen. This is a Markovnikov and a mixed addition."
         },
         {
             "reaction":"Hydroboration / Oxidation",
@@ -120,18 +120,18 @@
         },
         {
             "reaction":"Nucleophilic Substitution",
-            "title":"Sn1 Mechanism",
-            "description":"This is an Sn1 mechanism because H₂O is a bad nucleophile. First the leaving group leaves to form a carbocation intermediate. Water then acts as the nucleophile attacking the carbocation to form the new product. "
+            "title":"Sₙ1 Mechanism",
+            "description":"This is an Sₙ1 mechanism because H₂O is a bad nucleophile. First the leaving group leaves to form a carbocation intermediate. Water then acts as the nucleophile attacking the carbocation to form the new product. "
         },
         {
             "reaction":"Using an Organometallic Reagent",
             "title":"",
-            "description":"The alkene is used to react with OsO₄ as step 1, and then H₂S is added to to create two alcohols on the same face. It is a syn diol because the oxygens are being added at the same time from the same molecule. "
+            "description":"Using an organometallic reagent allows for the reduction of a carbonyl into an alcohol. Remember to include workup and number your reaction when doing retrosynthesis! Workup can be indicated by writing “aqueous workup” or “H₂O”. This does not work with protic species because deprotonation will occur instead."
         },
         {
             "reaction":"Carboxylic Reduction",
             "title":"",
-            "description":"Reducing a carboxylic acid into a primary alcohol by a strong reducing agent. Mechanism is not well known."
+            "description":"Reducing a carboxylic acid into a primary alcohol by a strong reducing agent. The mechanism is not well known."
         },
         {
             "reaction":"Aldol Reaction",
@@ -173,7 +173,7 @@
         {
             "reaction":"Full Reduction from Alkyne",
             "title":"Requires alkyne",
-            "description":"H2 is added on the same side across the pi bond. The alkyne turns into a cis alkene that reacts again with H2, causing a further reduction. However, the reduction can be stopped at the alkene if Lindlar’s catalyst is added."
+            "description":"H₂ is added on the same side across the pi bond. The alkyne turns into a cis alkene that reacts again with H₂, causing a further reduction. However, the reduction can be stopped at the alkene if Lindlar’s catalyst is added."
         },
         {
             "reaction":"Catalytic Hydrogenation",
@@ -189,12 +189,12 @@
         {
             "reaction":"Cis Alkene",
             "title":"Requires alkyne",
-            "description":"H2 is added on the same side across the pi bond. The alkyne turns into a cis alkene and the addition of Lindlar’s catalyst prevents further reduction into an alkane."
+            "description":"H₂ is added on the same side across the pi bond. The alkyne turns into a cis alkene and the addition of Lindlar’s catalyst prevents further reduction into an alkane."
         },
         {
             "reaction":"Aldol Condensation",
             "title":"",
-            "description":"Adding heat helps to pop off an -OH group. "
+            "description":"The aldol reaction will occur first, then adding heat helps to pop off an -OH group. "
         },
         {
             "reaction":"Generally Making Alkenes",
@@ -205,7 +205,7 @@
         {
             "reaction":"Double Elimination",
             "title":"",
-            "description":"Br2 is added across the pi bond, which creates two leaving groups. The strong base in step two will pull off protons and then kick off bromines, creating an alkyne. Two equivalents of a strong base are necessary because there are more than two hydrogens that could be reacted with."
+            "description":"Br₂ is added across the pi bond, which creates two leaving groups. The strong base in step two will pull off protons and then kick off bromines, creating an alkyne. Two equivalents of a strong base are necessary because there are more than two hydrogens that could be reacted with."
         }
     ],"amide":[
         {
@@ -232,7 +232,7 @@
         {
             "reaction":"Aldol Condensation",
             "title":"Enols and Enolates",
-            "description":"Adding heat helps to pop off an -OH group."
+            "description":"The aldol reaction will occur first, then adding heat helps to pop off an -OH group."
         },
         {
             "reaction":"Organometallic Reagents",
@@ -268,12 +268,12 @@
         {
             "reaction":"Organometallic Reagents",
             "title":"",
-            "description":"Remember to number your steps for this one! Also, H₃O+ is used because once you add CO₂, you actually form a pretty stable base that isn’t that reactive. "
+            "description":"Remember to number your steps for this one! Also, H₃O⁺ is used because once you add CO₂, you actually form a pretty stable base that isn’t that reactive. "
         },
         {
             "reaction":"Oxidation of Primary Alcohols or Aldehydes",
             "title":"",
-            "description":"This is known as Jone’s Reagent, which includes chromate which is a very good oxidizing agent. Jone’s Reagent can also be seen as H₂CrO₄ or Na₂Cr₂O₇. "
+            "description":"This is known as Jones' Reagent, which includes chromate which is a very good oxidizing agent. Jones' Reagent can also be seen as H₂CrO₄ or Na₂Cr₂O₇. "
         },
         {
             "reaction":"Hydrolysis with Acid",
@@ -299,7 +299,7 @@
         {
             "reaction":"Carbonyl Deoxygenation",
             "title":"",
-            "description":"To turn a carbonyl into just a C-C bond, either use the Clemmensen Reduction for acidic conditions with Zn(Hg), HCl, or the Wolff-Kishner Reduction for basic conditions with H2N-N2H, KOH, and heat."
+            "description":"To turn a carbonyl into just a C-C bond, either use the Clemmensen Reduction for acidic conditions with Zn(Hg), HCl, or the Wolff-Kishner Reduction for basic conditions with H₂N-N₂H, KOH, and heat."
         },
         {
             "reaction":"Amide Reduction with Hydrides",
@@ -319,12 +319,12 @@
         {
             "reaction":"Sharpless Asymmetric Epoxidation",
             "title":"",
-            "description":"The SAE only forms one enantiomer of an epoxide and requires an allylic alcohol. If diethyltartrate (DET) is (-) the top facing (wedge) form of the epoxide is made. If DET is (+), then the bottom facing (dashed) form of the epoxide is created."
+            "description":"The SAE only forms one enantiomer of an epoxide and requires an allylic alcohol. If diethyltartrate (DET) is (-) the top facing (wedge) form of the epoxide is made. If DET is (+), then the bottom facing (dashed) form of the epoxide is created. Remeber the palm (positive) and knuckle (negative) rule!"
         },
         {
             "reaction":"General Epoxidation",
             "title":"",
-            "description":"Not stereo or enantioselective. The alkene attacks the weak O-O single bond on mCPBA. The electrons from the O-O bond then create a carbon and oxygen double bond. This causes the pi electrons from the original double bonded oxygen to attack the hydrogen and creates an OH group. Leading to the alkene to form a three membered ring with oxygen. CH₂Cl₂ is added as a solvent because it is an aprotic solvent. No regiochemical outcome because the same atom is added to both sides. Syn addition because the same atom is being added to both carbons. "
+            "description":"This is not stereo- or enantioselective. The alkene attacks the weak O-O single bond on mCPBA. The electrons from the O-O bond then create a carbon and oxygen double bond. This causes the pi electrons from the original double bonded oxygen to attack the hydrogen and creates an OH group. This leads to the alkene to form a three membered ring with oxygen. CH₂Cl₂ is added as a solvent because it is an aprotic solvent. There is no regiochemical outcome because the same atom is added to both sides. This is syn addition because the same atom is being added to both carbons. "
         }
     ],"ester":[
         {
@@ -340,7 +340,7 @@
         {
             "reaction":"Making Esters with Acid Chlorides",
             "title":"",
-            "description":"Although the reaction looks like an Sn2, it is still a multi-step mechanism."
+            "description":"Although the reaction looks like an Sₙ2, it is still a multi-step mechanism."
         }
     ],"ether":[
         {
@@ -349,9 +349,9 @@
             "description":"When in an acidic solution, think protonation. The alcohol will first become protonated, which allows for another primary alcohol group to attack the alpha carbon, kicking off the OH₂ group. This reaction only creates symmetrical ethers. Because this involves acid and heat is applied, side reactions such as E2 also occur. "
         },
         {
-            "reaction":"Sn1 Reaction",
+            "reaction":"Sₙ1 Reaction",
             "title":"",
-            "description":"MeOH is a bad nucleophile, pushing it towards an Sn1 mechanism, which can be used in the creation of an ether on a sterically hindered electrophile where an Sn2 mech would not occur."
+            "description":"MeOH is a bad nucleophile, pushing it towards an Sₙ1 mechanism, which can be used in the creation of an ether on a sterically hindered electrophile where an Sₙ2 mech would not occur."
         },
         {
             "reaction":"Williamson Ether Synthesis",
@@ -362,7 +362,7 @@
         {
             "reaction":"Imines",
             "title":"",
-            "description":"Adding an amine to a ketone in acid will form an imine. Note that the hemiaminal is an intermediary step but will naturally turn to an imine in acidic conditions, which is why we have H2SO4. "
+            "description":"Adding an amine to a ketone in acid will form an imine. Note that the hemiaminal is an intermediary step but will naturally turn to an imine in acidic conditions, which is why we have H₂SO₄. "
         }
     ],"ketone":[
         {
@@ -378,7 +378,7 @@
         {
             "reaction":"Hydration in Basic Conditions",
             "title":"",
-            "description":"The enol gets deprotonated by OH- and then the nucleophilic carbon pi bond picks up a hydrogen off of water. When this happens, oxygen kicks down a lone pair that forms a double bond with oxygen."
+            "description":"The enol gets deprotonated by OH ⁻ and then the nucleophilic carbon pi bond picks up a hydrogen off of water. When this happens, oxygen kicks down a lone pair that forms a double bond with oxygen."
         },
         {
             "reaction":"EAS Friedel-Crafts Acylation",

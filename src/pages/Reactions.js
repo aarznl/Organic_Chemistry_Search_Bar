@@ -80,6 +80,7 @@ function Reactions() {
                     <div>
                         <h1>{location.state}!</h1>
                         <p>My favorite...</p>
+                        <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -103,6 +104,7 @@ function Reactions() {
                                 <span className={styles.joke}> Bro, mine</span>
                             </p>
                         </div>
+                        <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -133,6 +135,7 @@ function Reactions() {
                                 <span className={styles.joke}> A ferrous wheel</span>
                             </p>
                         </div>
+                        <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -155,6 +158,7 @@ function Reactions() {
                     <div>
                         <h1>{location.state}!</h1>
                         <p>Chemists and alcoholics have one thing in common, and that is they both view alcohol as part of the solution.</p>
+                        <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -182,6 +186,7 @@ function Reactions() {
                                 <span className={styles.joke}> Formaldehyde</span>
                             </p>
                         </div>
+                        <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -212,6 +217,7 @@ function Reactions() {
                                 <span className={styles.joke}> They make 1 mol-ester</span>
                             </p>
                         </div>
+                        <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -239,6 +245,7 @@ function Reactions() {
                                 <span className={styles.joke}> The name's Bond. Double bond.</span>
                             </p>
                         </div>
+                        <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -261,6 +268,7 @@ function Reactions() {
                     <div>
                         <h1>{location.state}!</h1>
                         <p>Organic chemistry is difficult. Those who study it have alkynes of trouble.</p>
+                        <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -283,6 +291,7 @@ function Reactions() {
                     <div>
                         <h1>{location.state}!</h1>
                         <p>{"These jokes are pretty (a)mide"}</p>
+                        <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -305,6 +314,7 @@ function Reactions() {
                     <div>
                         <h1>{location.state}!</h1>
                         <p>I wish my life was as stable as a c-c bond</p>
+                        <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -327,6 +337,7 @@ function Reactions() {
                     <div>
                         <h1>{location.state}!</h1>
                         <p></p>
+                        <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -354,6 +365,7 @@ function Reactions() {
                                 <span className={styles.joke}> An oxymoron </span>
                             </p>
                         </div>
+                        <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -375,6 +387,7 @@ function Reactions() {
                 return(
                     <div>
                         <h1>{location.state}!</h1>
+                        <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -402,6 +415,7 @@ function Reactions() {
                                 <span className={styles.joke}> Because Ester was in a scent. </span>
                             </p>
                         </div>
+                        <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -430,6 +444,7 @@ function Reactions() {
                                 <span>get organic chemsitry or you don't.</span>
                             </p>
                         </div>
+                        <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -451,6 +466,7 @@ function Reactions() {
                 return(
                     <div>
                         <h1>{location.state}!</h1>
+                        <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -472,6 +488,7 @@ function Reactions() {
                 return(
                     <div>
                         <h1>{location.state}!</h1>
+                        <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}
@@ -497,6 +514,7 @@ function Reactions() {
                     <div>
                         <h1>{location.state}!</h1>
                         <p>All the single ladies, all the single ladies</p>
+                        <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
                         hideNavBtnsOnMobile={false}

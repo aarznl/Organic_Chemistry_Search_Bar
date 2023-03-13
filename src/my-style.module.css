@@ -60,9 +60,9 @@
 }
 
 .container {
-  display:flex;
   justify-content: center; /* horizontally center */
   align-items: center;
+  position: absolute;
   position: relative;
   width: 50%;
 }
@@ -70,26 +70,24 @@
 .imga {
   display: block;
   width: 100%;
+  height: auto;
 }
 
 .hover_img {
-  display:flex;
-  justify-content: center; /* horizontally center */
-  align-items: center;
   position: absolute;
   top: 0;
+  bottom: 0;
   left: 0;
-  opacity: 0;
-  transition: 5s ease;
-  width: 100%;
+  right: 0;
   height: 100%;
-
+  width: 100%;
+  opacity: 0;
+  transition: 4.0s ease;
 } 
 
 .container:hover .hover_img {
-  transition-delay: 0.5s;
+  transition-delay: 2.5s;
   opacity: 1;
-
 }
 
 * {box-sizing: border-box}

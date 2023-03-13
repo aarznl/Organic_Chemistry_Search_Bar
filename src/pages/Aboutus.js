@@ -11,7 +11,7 @@ function Aboutus() {
     const [GoToHome, setGoToHome] = useState(false);
 
     if (GoToHome) {
-        return <Navigate to="/" />
+        return <Navigate to="/Organic_Chemistry_Search_Bar/" />
     }
 
     return(

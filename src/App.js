@@ -9,9 +9,9 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path='/' element={<HomePage/>}/>
-        <Route path='/reactions' element={<Reactions/>}/>
-        <Route path='/aboutus' element={<Aboutus/>}/>
+        <Route path='/Organic_Chemistry_Search_Bar/' element={<HomePage/>}/>
+        <Route path='/Organic_Chemistry_Search_Bar/reactions' element={<Reactions/>}/>
+        <Route path='/Organic_Chemistry_Search_Bar/aboutus' element={<Aboutus/>}/>
       </Routes>
     </div>
   );

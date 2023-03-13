@@ -16,17 +16,17 @@ function HomePage() {
     const [GoToAboutus, setGoToAboutus] = useState(false);
 
     if (GoToReactions) {
-        return navigate("/reactions", {state: searchTerm}
+        return navigate("/Organic_Chemistry_Search_Bar/reactions", {state: searchTerm}
         );
     };
 
     if (GoToAboutus) {
-        return navigate("/aboutus");
+        return navigate("/Organic_Chemistry_Search_Bar/aboutus");
     };
 
     const handleKeyDown = (event) => {
         if (event.key === 'Enter') {
-            navigate("/reactions", {state: searchTerm}
+            navigate("/Organic_Chemistry_Search_Bar/reactions", {state: searchTerm}
         );
         };
       };
@@ -59,7 +59,7 @@ function HomePage() {
             }).map((val, key) => {
                 return (
                     <div className="user" key={key}>
-                        <Link to="/reactions" state={val.Molecule} >{val.Molecule}</Link>
+                        <Link to="/Organic_Chemistry_Search_Bar/reactions" state={val.Molecule} >{val.Molecule}</Link>
                     </div>);
             })}
             <div>

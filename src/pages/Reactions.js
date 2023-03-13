@@ -545,11 +545,11 @@ function Reactions() {
     };
 
     if (GoToReactions) {
-        return <Navigate to="/" />
+        return <Navigate to="/Organic_Chemistry_Search_Bar/" />
     }
 
     if (GoToAboutus) {
-        return <Navigate to="/aboutus"/>;
+        return <Navigate to="/Organic_Chemistry_Search_Bar/aboutus"/>;
     };
 
     return (

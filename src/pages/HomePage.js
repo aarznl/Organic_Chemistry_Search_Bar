@@ -3,6 +3,7 @@ import { Link, useNavigate} from "react-router-dom";
 import compounds from '../compounds.json';
 import benzene from '../images/benzene_ring.png';
 import styles from '../my-style.module.css';
+import logo1 from '../images/logo1.jpg';
 import 'animate.css';
 
 
@@ -33,7 +34,8 @@ function HomePage() {
 
     return (
         <div className="App">
-            <h1> Organic Chemistry Synthesizer </h1>
+            <h1 padding="2"> Organic Chemistry Synthesizer </h1>
+            <img src={logo1} width="500" alt=""></img>
             <div>
                 <input type="text" placeholder="Search..."
                     onChange={(event) => { // Code for search filter
@@ -65,7 +67,7 @@ function HomePage() {
                     setGoToAboutus(true)}
                 }
                 className={styles.benzene}> 
-                <img src={benzene} width="75" className="animate__animated animate__rotateIn"/>
+                <img src={benzene} width="75" className="animate__animated animate__rotateIn" alt=""/>
                 </button>
             </div>
         </div>

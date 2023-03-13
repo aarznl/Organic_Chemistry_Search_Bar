@@ -44,6 +44,8 @@
 
 .joke {
   color: #656565c5;
+  font-size: 20px;
+  padding-right: 30px;
 }
 
 .benzene {
@@ -55,6 +57,39 @@
   display:flex;
   justify-content: center; /* horizontally center */
   align-items: center;    /* vertically center */
+}
+
+.container {
+  display:flex;
+  justify-content: center; /* horizontally center */
+  align-items: center;
+  position: relative;
+  width: 50%;
+}
+
+.imga {
+  display: block;
+  width: 100%;
+}
+
+.hover_img {
+  display:flex;
+  justify-content: center; /* horizontally center */
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 5s ease;
+  width: 100%;
+  height: 100%;
+
+} 
+
+.container:hover .hover_img {
+  transition-delay: 0.5s;
+  opacity: 1;
+
 }
 
 * {box-sizing: border-box}

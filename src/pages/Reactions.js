@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Navigate, useLocation, useNavigate } from "react-router-dom";
+import { Navigate, useLocation } from "react-router-dom";
 import { Tab, Tabs} from 'react-tabs-scrollable';
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import {
@@ -85,7 +85,6 @@ function Reactions() {
                 return(
                     <div>
                         <h1>{cap(location.state)}!</h1>
-                        <p>My favorite...</p>
                         <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
@@ -134,7 +133,10 @@ function Reactions() {
             case 'addition to benzene ring':
                 return(
                     <div>
-                        <h1>{cap(location.state)}!</h1>
+                        <h1 className={styles.samel}>
+                            <span>{cap(location.state)}!</span>
+                            <span className={styles.joke}> My favorite...</span>
+                        </h1>
                         <div>
                             <p className={styles.samel}>
                                 <span>What do chemists call a benzene ring with iron atoms replacing the carbon atoms? </span>
@@ -561,7 +563,7 @@ function Reactions() {
                     setGoToAboutus(true)}
                 }
                 className={styles.benzene}> 
-                    <img src={benzene} width="75" className="animate__animated animate__rotateIn"/>
+                    <img src={benzene} alt="" width="75" className="animate__animated animate__rotateIn"/>
                 </button>
             </div>
         </div>

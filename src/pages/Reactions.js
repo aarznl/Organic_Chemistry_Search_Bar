@@ -13,6 +13,7 @@ import {
     ccbond7, ccbond8, deoxy1, deoxy2, deoxy3, deoxy4, epoxide1, epoxide2, epoxide3, ether1, ether2, ether3, 
     ester1, ester2, ester3, imine1, ketone1, ketone2, ketone3, ketone4, ketone5, ketone6, ketone7, ring1, benzene
   } from '../images';
+import sponge from '../images/spongebob.png';
 import styles from '../my-style.module.css';
 import info from '../information.json';
 import 'animate.css';
@@ -438,12 +439,12 @@ function Reactions() {
             case 'ethers':
                 return(
                     <div>
-                        <h1>{cap(location.state)}! My favorite...</h1>
+                        <h1>{cap(location.state)}!</h1>
                         <div>
                             <p className={styles.samel}>
-                                <span>You </span>
+                                <span>You</span>
                                 <span className={styles.joke}> ether </span>
-                                <span>get organic chemsitry or you don't.</span>
+                                <span>get organic chemistry or you don't.</span>
                             </p>
                         </div>
                         <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
@@ -536,7 +537,8 @@ function Reactions() {
                 )
             default: 
                 return(
-                    <div>
+                    <div className="animate__animated animate__fadeIn">
+                        <img className={styles.center} src={sponge} alt=""></img>
                         <p><b>Sorry, you did not input a valid molecule!</b></p>
                         <p><i>Please return to the home page and input one of the listed molecules.</i></p>
                     </div>

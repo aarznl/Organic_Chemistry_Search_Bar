@@ -20,7 +20,7 @@ function Aboutus() {
             <div className={styles.container}>
             <img className={styles.imga} src={pic} alt=""></img>
             <div>
-            <img className={styles.hover_img} src={pic2}></img>
+            <img className={styles.hover_img} src={pic2} alt=""></img>
             </div>
             </div>
             <p className={styles.texta}> This is the team! From left to right we have Aaron Li, Hannah Jin, Kaitlyn Shimohara, Phillip Ma, and Mario Marmolejo. Aaron and Phillip worked on the functionality and styling of the website, Hannah worked on grouping the 60+ reactions, importing the images on the site, and worked with Kaitlyn to handdraw the logos, and Mario and Kaitlyn worked on the descriptions and images. We were going to make a God’s Plan remix video of chemical reactions (we already made some rhymes too), but we thought that this would be more useful for Chem 14D students. Enjoy! </p>

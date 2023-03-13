@@ -23,6 +23,7 @@
   height: 30px; 
   font-size: 20px;
   padding-left: 10px; 
+  border-radius: 7px;
 }
 
 p {
@@ -37,4 +38,5 @@ img {
 
 button {
   cursor: pointer;
+  border-radius: 7px;
 }

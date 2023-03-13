@@ -74,12 +74,17 @@ function Reactions() {
             <p>{descrip}</p>
         </div>)
     }
+
+    function cap(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
     const image = () => {
         switch (location.state.toLowerCase()) {
             case 'acetal':
                 return(
                     <div>
-                        <h1>{location.state}!</h1>
+                        <h1>{cap(location.state)}!</h1>
                         <p>My favorite...</p>
                         <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
@@ -98,7 +103,7 @@ function Reactions() {
             case 'addition of halogen':
                 return(
                     <div>
-                        <h1>{location.state}!</h1>
+                        <h1>{cap(location.state)}!</h1>
                         <div>
                             <p className={styles.samel}>
                                 <span>What did the chemist say when he caught his brother stealing halogens? </span>
@@ -129,7 +134,7 @@ function Reactions() {
             case 'addition to benzene ring':
                 return(
                     <div>
-                        <h1>{location.state}!</h1>
+                        <h1>{cap(location.state)}!</h1>
                         <div>
                             <p className={styles.samel}>
                                 <span>What do chemists call a benzene ring with iron atoms replacing the carbon atoms? </span>
@@ -157,7 +162,7 @@ function Reactions() {
             case 'alcohols':
                 return(
                     <div>
-                        <h1>{location.state}!</h1>
+                        <h1>{cap(location.state)}!</h1>
                         <p>Chemists and alcoholics have one thing in common, and that is they both view alcohol as part of the solution.</p>
                         <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
@@ -180,7 +185,7 @@ function Reactions() {
             case 'aldehydes':
                 return(
                     <div>
-                        <h1>{location.state}!</h1>
+                        <h1>{cap(location.state)}!</h1>
                         <div>
                             <p className={styles.samel}>
                                 <span>What's the fanciest aldehyde? </span>
@@ -211,13 +216,7 @@ function Reactions() {
             case 'alkanes':
                 return(
                     <div>
-                        <h1>{location.state}!</h1>
-                        <div>
-                            <p className={styles.samel}>
-                                <span>Why do chemists hate reacting the 1 mol concentration of a carboxyl acid and 1 mil concentration alkane? </span>
-                                <span className={styles.joke}> They make 1 mol-ester</span>
-                            </p>
-                        </div>
+                        <h1>{cap(location.state)}!</h1>
                         <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
@@ -239,7 +238,7 @@ function Reactions() {
             case 'alkenes':
                 return(
                     <div>
-                        <h1>{location.state}!</h1>
+                        <h1>{cap(location.state)}!</h1>
                         <div>
                             <p className={styles.samel}>
                                 <span>What did the alkene say to the alkane? </span>
@@ -267,7 +266,7 @@ function Reactions() {
             case 'alkynes':
                 return(
                     <div>
-                        <h1>{location.state}!</h1>
+                        <h1>{cap(location.state)}!</h1>
                         <p>Organic chemistry is difficult. Those who study it have alkynes of trouble.</p>
                         <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
@@ -290,7 +289,7 @@ function Reactions() {
             case 'amides':
                 return(
                     <div>
-                        <h1>{location.state}!</h1>
+                        <h1>{cap(location.state)}!</h1>
                         <p>{"These jokes are pretty (a)mide"}</p>
                         <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
@@ -313,7 +312,7 @@ function Reactions() {
             case 'c-c bonds':
                 return(
                     <div>
-                        <h1>{location.state}!</h1>
+                        <h1>{cap(location.state)}!</h1>
                         <p>I wish my life was as stable as a c-c bond</p>
                         <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
@@ -336,7 +335,7 @@ function Reactions() {
             case 'carboxylic acids':
                 return(
                     <div>
-                        <h1>{location.state}!</h1>
+                        <h1>{cap(location.state)}!</h1>
                         <p></p>
                         <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
@@ -359,7 +358,7 @@ function Reactions() {
             case 'deoxygenation':
                 return(
                     <div>
-                        <h1>{location.state}!</h1>
+                        <h1>{cap(location.state)}!</h1>
                         <div>
                             <p className={styles.samel}>
                                 <span>What do you call a chemistry student who is too stupid to learn about Oxygen? </span>
@@ -387,7 +386,7 @@ function Reactions() {
             case 'epoxides':
                 return(
                     <div>
-                        <h1>{location.state}!</h1>
+                        <h1>{cap(location.state)}!</h1>
                         <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
@@ -409,7 +408,7 @@ function Reactions() {
             case 'esters':
                 return(
                     <div>
-                        <h1>{location.state}!</h1>
+                        <h1>{cap(location.state)}!</h1>
                         <div>
                             <p className={styles.samel}>
                                 <span>Why did the jury decide Ester was not guilty? </span>
@@ -437,7 +436,7 @@ function Reactions() {
             case 'ethers':
                 return(
                     <div>
-                        <h1>{location.state}! My favorite...</h1>
+                        <h1>{cap(location.state)}! My favorite...</h1>
                         <div>
                             <p className={styles.samel}>
                                 <span>You </span>
@@ -466,7 +465,7 @@ function Reactions() {
             case 'imines':
                 return(
                     <div>
-                        <h1>{location.state}!</h1>
+                        <h1>{cap(location.state)}!</h1>
                         <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
@@ -488,7 +487,7 @@ function Reactions() {
             case 'ketones':
                 return(
                     <div>
-                        <h1>{location.state}!</h1>
+                        <h1>{cap(location.state)}!</h1>
                         <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}
                         onTabClick={onTabClick}
@@ -513,7 +512,7 @@ function Reactions() {
             case 'rings':
                 return(
                     <div>
-                        <h1>{location.state}!</h1>
+                        <h1>{cap(location.state)}!</h1>
                         <p>All the single ladies, all the single ladies</p>
                         <hr style={{background: "#65656573",height: "3px",border: "none"}}/>
                         <Tabs activeTab={activeTab}

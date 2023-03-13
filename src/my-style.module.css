@@ -20,6 +20,11 @@
   padding-bottom: 10px;
 }
 
+.texta{
+  text-align: center;
+  padding: 20px;
+}
+
 .container {
   position: relative;
   text-align: center;
@@ -43,7 +48,13 @@
 
 .benzene {
   border: none;
-  padding-top: 10px;
+  padding-top: 50px;
+}
+
+.benimg {
+  display:flex;
+  justify-content: center; /* horizontally center */
+  align-items: center;    /* vertically center */
 }
 
 * {box-sizing: border-box}

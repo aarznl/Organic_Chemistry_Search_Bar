@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Navigate, useLocation } from "react-router-dom";
+import { Navigate, useLocation, useNavigate } from "react-router-dom";
 import { Tab, Tabs} from 'react-tabs-scrollable';
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import {
@@ -11,7 +11,7 @@ import {
     aldehyde5, alkane1, alkane2, alkene1, alkene2, alkene3, alkene4, alkyne1, amide1, 
     amide2, amide3, carboxy1, carboxy2, carboxy3, carboxy4, carboxy5, carboxy6, ccbond1, ccbond2, ccbond3, ccbond4, ccbond5, ccbond6, 
     ccbond7, ccbond8, deoxy1, deoxy2, deoxy3, deoxy4, epoxide1, epoxide2, epoxide3, ether1, ether2, ether3, 
-    ester1, ester2, ester3, imine1, ketone1, ketone2, ketone3, ketone4, ketone5, ketone6, ketone7, ring1
+    ester1, ester2, ester3, imine1, ketone1, ketone2, ketone3, ketone4, ketone5, ketone6, ketone7, ring1, benzene
   } from '../images';
 import styles from '../my-style.module.css';
 import info from '../information.json';
@@ -41,6 +41,7 @@ const pics = {
 
 function Reactions() {
     const [GoToReactions, setGoToReactions] = useState(false);
+    const [GoToAboutus, setGoToAboutus] = useState(false);
     const location = useLocation();
     console.log(location);
 
@@ -546,12 +547,24 @@ function Reactions() {
         return <Navigate to="/" />
     }
 
+    if (GoToAboutus) {
+        return <Navigate to="/aboutus"/>;
+    };
+
     return (
         <div>
             <div>
                 {image()}
             </div>
             <button style={{ marginLeft: 6 }} onClick={() => { setGoToReactions(true) }}>return</button>
+            <div className={styles.benimg}>
+                <button onClick={() => {
+                    setGoToAboutus(true)}
+                }
+                className={styles.benzene}> 
+                    <img src={benzene} width="75" className="animate__animated animate__rotateIn"/>
+                </button>
+            </div>
         </div>
     )
     

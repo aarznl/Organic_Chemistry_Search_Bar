@@ -3,6 +3,8 @@ import { Link, useNavigate} from "react-router-dom";
 import compounds from '../compounds.json';
 import benzene from '../images/benzene_ring.png';
 import styles from '../my-style.module.css';
+import 'animate.css';
+
 
 
 
@@ -61,7 +63,10 @@ function HomePage() {
             <div>
                 <button onClick={() => {
                     setGoToAboutus(true)}
-                } className={styles.benzene}> <img src={benzene} width="75"/></button>
+                }
+                className={styles.benzene}> 
+                <img src={benzene} width="75" className="animate__animated animate__rotateIn"/>
+                </button>
             </div>
         </div>
     )

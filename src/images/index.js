@@ -81,6 +81,8 @@ export const ketone7 = require('./ketone7.png');
 export const ring1 = require('./ring1.png');
 export const taut1 = require('./taut1.png');
 export const taut2 = require('./taut2.png');
+export const benzene = require('./benzene_ring.png');
+
 
 
 

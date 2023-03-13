@@ -1,16 +1,24 @@
 import React, {useState} from "react";
 import { Link, useNavigate} from "react-router-dom";
 import compounds from '../compounds.json';
+import benzene from '../images/benzene_ring.png';
+import styles from '../my-style.module.css';
+
 
 
 function HomePage() {
     const [searchTerm, setSearchTerm] = useState('')
     const [GoToReactions, setGoToReactions] = useState(false);
     const navigate = useNavigate();
+    const [GoToAboutus, setGoToAboutus] = useState(false);
 
     if (GoToReactions) {
         return navigate("/reactions", {state: searchTerm}
         );
+    };
+
+    if (GoToAboutus) {
+        return navigate("/aboutus");
     };
 
     const handleKeyDown = (event) => {
@@ -50,6 +58,11 @@ function HomePage() {
                         <Link to="/reactions" state={val.Molecule} >{val.Molecule}</Link>
                     </div>);
             })}
+            <div>
+                <button onClick={() => {
+                    setGoToAboutus(true)}
+                } className={styles.benzene}> <img src={benzene} width="75"/></button>
+            </div>
         </div>
     )
 }

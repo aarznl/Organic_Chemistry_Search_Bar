@@ -41,4 +41,10 @@
   color: #656565c5;
 }
 
+.benzene {
+  border: none;
+  padding-top: 10px;
+}
+
 * {box-sizing: border-box}
+

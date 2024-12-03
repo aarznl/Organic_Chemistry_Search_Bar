@@ -1,7 +1,7 @@
 {
   "name": "react-website-yt-1",
   "version": "0.1.0",
-  "homepage": "https://phillipma10.github.io/Organic_Chemistry_Search_Bar",
+  "homepage": "https://aarznl.github.io/Organic_Chemistry_Search_Bar",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
